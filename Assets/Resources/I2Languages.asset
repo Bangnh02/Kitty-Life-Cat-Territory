@@ -1,0 +1,2220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce438b7d38790cc35fc75a0cca5ef72, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Generals/BonusText
+      TermType: 0
+      Languages:
+      - '(Бонус)'
+      - '(Bonus)'
+      - '(Bonus)'
+      - '(Der Bonus)'
+      - '(Bonus)'
+      - '(Bonification)'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/CloudLoadingText
+      TermType: 0
+      Languages:
+      - 'Загрузка из облака, пожалуйста подождите…'
+      - 'Please wait, cloud loading…'
+      - 'Veuillez attendre, téléchargement de Cloud...'
+      - 'Booten aus der Cloud, warten Sie bitte…'
+      - 'Caricamento dal cloud, attendere prego…'
+      - 'Espere por favor, descarga de Cloud…'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/EnemyInfoPanelName
+      TermType: 0
+      Languages:
+      - '{[archetype]} {[scheme]}'
+      - '{[archetype]} {[scheme]}'
+      - '{[archetype]} {[scheme]}'
+      - '{[archetype]} {[scheme]}'
+      - '{[archetype]} {[scheme]}'
+      - '{[archetype]} {[scheme]}'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/ErrorDescriptionText
+      TermType: 0
+      Languages:
+      - 'Пожалуйста, сделайте скриншот ошибки (на большинстве устройств скриншот можно сделать зажав одновременно кнопки "Блокировка" и "Понизить громкость") и отправьте его нам на почту aveloggames@gmail.com'
+      - 'Please, make the screenshot of an error (on most devices, you can take a screenshot by holding down the "Lock" and "Lower volume" buttons at the same time") and send it us on our e-mail aveloggames@gmail.com'
+      - 'S''il vous plaît prenez une capture d''écran de l''erreur (sur la plupart des appareils, on peut faire une capture d''écran en appuyant simultanément les boutons "Verrouiller" et "Baisser le volume") et l''envoyez à notre e-mail aveloggames@gmail.com'
+      - 'Machen Sie bitte einen Screenshot des Fehlers (auf die meisten Geräte kann man Ausschaltetaste und Leisetaste drücken) und schicken uns per e-mail aveloggames@gmail.com'
+      - 'Si prega di fare uno screenshot dell''errore (sulla maggior parte dei dispositivi puoi fare uno screenshot tenendo premuti contemporaneamente i pulsanti "Blocca" e "Abbassa Volume") e di inviarlo a aveloggames@gmail.com'
+      - 'Por favor, tome una captura de pantalla del error (en la mayoría de los dispositivos, la captura de pantalla se puede hacer presionando simultáneamente los botones "Bloquear" y "Bajar el volumen") y envíenoslo por correo electrónico aveloggames@gmail.com'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/ErrorTitleText
+      TermType: 0
+      Languages:
+      - Произошла ошибка
+      - An error occurred
+      - Une erreur s'est produite
+      - Ein Fehler ist aufgetreten
+      - Si è verificato un errore
+      - Se ha producido un error
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/ErrorVersionText
+      TermType: 0
+      Languages:
+      - 'Версия: {[version]}; Платформа: {[platform]}'
+      - 'Version: {[version]}; Platform: {[platform]}'
+      - 'Version: {[version]}; Platform: {[platform]}'
+      - 'Der Version: {[version]}; der Plattform {[platform]}'
+      - 'Versione: {[version]}; Piattaforma: {[platform]}'
+      - 'Versión: {[version]}; Plataforma: {[platform]}'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/GetPremiumButtonText
+      TermType: 0
+      Languages:
+      - 'Премиум ({[price]})'
+      - 'Premium ({[price]})'
+      - 'Prime ({[price]})'
+      - 'Premium ({[price]})'
+      - 'Premio ({[price]})'
+      - 'Premium ({[price]})'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/LoadingText
+      TermType: 0
+      Languages:
+      - 'Загрузка, пожалуйста подождите...'
+      - 'Please wait, loading…'
+      - 'Veuillez attendre, téléchargement…'
+      - 'Booten, warten Sie bite...'
+      - 'Caricamento, attendere prego...'
+      - 'Espere por favor, descarga…'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/RemoveAdsTitleText
+      TermType: 0
+      Languages:
+      - Убрать рекламу навсегда
+      - Remove Ads forever
+      - Supprimer les Ads pour toujours
+      - Die Werbung ausschalten
+      - Rimuovere definitivamente la pubblicità
+      - Eliminar los anuncios para siempre
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/RewardAdPanelButtonText
+      TermType: 0
+      Languages:
+      - Просмотр
+      - View
+      - Vissionage
+      - Das Betrachten
+      - Visione
+      - Ver
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Generals/RewardAdPanelTitleText
+      TermType: 0
+      Languages:
+      - Награда
+      - Reward
+      - Récompense
+      - Die Belohnung
+      - Premio
+      - Premio
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/AdViewingButtonText
+      TermType: 0
+      Languages:
+      - Просмотр
+      - View
+      - Vissionage
+      - Das Betrachten
+      - Visione
+      - Ver
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/AdsDescriptionText
+      TermType: 0
+      Languages:
+      - 'Чтобы пропустить ожидание, выберите одно из действий:'
+      - 'To skip waiting choose one of the following options:'
+      - 'Pour sauter l''attente, choisissez l''une des actions suivantes:'
+      - 'Wählen Sie eine Aktion um die Wartzeit zu verpassen:'
+      - 'Per non aspettare, selezionare una delle seguenti azioni:'
+      - 'Para saltar la espera, seleccione una de las acciones:'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/AdsTitleText
+      TermType: 0
+      Languages:
+      - Реклама
+      - Advertisment
+      - Publicité
+      - Die Werbung
+      - Pubblicità
+      - Advertencia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/AdsViewRewardTitleText
+      TermType: 0
+      Languages:
+      - Просмотр с наградой
+      - View with reward
+      - Vissionage avec la récompense
+      - Das Betrachten mit die Belohnung
+      - Visualizza con ricompensa
+      - Ver con premio
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/SkipByCoinsButtonText
+      TermType: 0
+      Languages:
+      - За монеты
+      - By coins
+      - Pour les pièces
+      - Bei Münzen
+      - Monete
+      - Por monedas
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BannerWindow/SkipByCoinsTitleText
+      TermType: 0
+      Languages:
+      - Пропуск за монеты
+      - Skip by coins
+      - Sauter pour les pièces
+      - Verpassen bei Münzen
+      - Saltare pagando con monete
+      - Saltar por monedas
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GenderWindow/ChooseGenderText
+      TermType: 0
+      Languages:
+      - 'Выберите пол персонажа:'
+      - 'Choose the gender:'
+      - 'Choisissez le sexe:'
+      - 'Wählen Sie das Geschlecht des Charakters:'
+      - 'Scegli il sesso del personaggio:'
+      - 'Elige el género:'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GenderWindow/FemaleText
+      TermType: 0
+      Languages:
+      - Женский
+      - Female
+      - Féminin
+      - Weiblich
+      - Femminile
+      - Femenino
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GenderWindow/MaleText
+      TermType: 0
+      Languages:
+      - Мужской
+      - Male
+      - Masculin
+      - Männlich
+      - Maschile
+      - Masculino
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinsWindow/ClosedSkinText
+      TermType: 0
+      Languages:
+      - '(Закрыто) Требуется {[level]} уровень'
+      - '(Locked) Level {[level]} required'
+      - '(Fermer) Niveau {[level]} exigé'
+      - '(Geschlossen) Man braucht {[level]} Level'
+      - '(Chiuso) È richiesto il {[level]} livello'
+      - '(Cerrado) Nivel {[level]} requiere'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinsWindow/DescriptionTitleText
+      TermType: 0
+      Languages:
+      - Описание
+      - Description
+      - Description
+      - Die Beschreibung
+      - Descrizione
+      - Descripción
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinsWindow/PurchaseText
+      TermType: 0
+      Languages:
+      - Приобрести
+      - Purchase
+      - Acheter
+      - Zu kaufen
+      - Guadagnare
+      - Comprar
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Notifications/AttackedNotification
+      TermType: 0
+      Languages:
+      - 'На вас напали!'
+      - 'You are attacked!'
+      - 'Vous êtes attaqués!'
+      - 'Sie wurden angegriffen!'
+      - 'Ci hanno attaccato!'
+      - '¡Atacados!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Notifications/NoticedNotification
+      TermType: 0
+      Languages:
+      - 'Вас заметили!'
+      - 'You are spotted!'
+      - 'Vous êtes remarqués!'
+      - 'Sie wurden bemerkt!'
+      - 'Vi hanno notato!'
+      - '¡Te han visto!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Notifications/QuestNotification
+      TermType: 0
+      Languages:
+      - 'Получен новый квест!'
+      - 'New quest received!'
+      - 'Nouvelle tâche reçuée!'
+      - 'Neue Quest wurde bekommt!'
+      - 'Nuova missione ricevuta!'
+      - '¡Recibido una nueva tarea!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Abyssinian
+      TermType: 0
+      Languages:
+      - 'Порода: Абиссинская'
+      - 'Breed: Abyssinian'
+      - 'Race: Abyssin'
+      - 'Rasse: die Abessinierkatze'
+      - 'Razza: Abissino'
+      - 'Raza: Abisinio'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Alien
+      TermType: 0
+      Languages:
+      - Инопланетная кошка
+      - Alien cat
+      - Chat alien
+      - 'Alien-Katze'
+      - Gatto alieno
+      - Gato alienígena
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Bengal
+      TermType: 0
+      Languages:
+      - 'Порода: Бенгальская'
+      - 'Breed: Bengal'
+      - 'Race: Bengal'
+      - 'Rasse: die Bengalkatze'
+      - 'Razza: Bengala'
+      - 'Raza: Bengala'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Bombay
+      TermType: 0
+      Languages:
+      - 'Порода: Бомбейская'
+      - 'Breed: Bombay'
+      - 'Race: Bombay'
+      - 'Rasse: die Bombay-Katze'
+      - 'Razza: Bombay americano'
+      - 'Raza: Bombay'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Burmilla
+      TermType: 0
+      Languages:
+      - 'Порода: Бурмилла'
+      - 'Breed: Burmilla'
+      - 'Race: Burmilla'
+      - 'Rasse: Burmilla'
+      - 'Razza: Burmilla'
+      - 'Raza: Burmilla'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Egyptian
+      TermType: 0
+      Languages:
+      - 'Порода: Египетская Мау'
+      - 'Breed: Egyptian Mau'
+      - 'Race: Mau égyptien'
+      - 'Rasse: die Ägyptische Mau'
+      - 'Razza: Mau egiziano'
+      - 'Raza: Mau egipcio'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Pixibob
+      TermType: 0
+      Languages:
+      - 'Порода: Пиксибоб'
+      - 'Breed: Pixie-bob'
+      - 'Race: Pixie-bob'
+      - 'Rasse: Pixiebob'
+      - 'Razza: Pixie bob'
+      - 'Raza: Pixie Bob'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Russian
+      TermType: 0
+      Languages:
+      - 'Порода: Русская голубая'
+      - 'Breed: Russian Blue'
+      - 'Race: Bleu russe'
+      - 'Rasse: Russisch Blau'
+      - 'Razza: Blu di Russia'
+      - 'Raza: Azul ruso'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Siamese
+      TermType: 0
+      Languages:
+      - 'Порода: Cиамская'
+      - 'Breed: Siamese'
+      - 'Race: Siamois'
+      - 'Rasse: die Siamkatze'
+      - 'Razza: Siamese'
+      - 'Raza: Siamés'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Simple
+      TermType: 0
+      Languages:
+      - Фермерская кошка
+      - Farmer's simple
+      - Chat de ferme simple
+      - Die farmers Katze
+      - Gatto di fattoria
+      - Gato de granja simple
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Abyssinian
+      TermType: 0
+      Languages:
+      - 'Внешне абиссинские кошки похожи на диких пум. По характеру они иногда спокойные, иногда агрессивные. Очень умные и любознательные. К тому же они быстро бегают.'
+      - 'Abyssinian cats look like wild Cougars. By nature, they are sometimes calm, sometimes aggressive. Very smart and curious. Besides, they run fast.'
+      - 'Extérieurement, les abyssinss ressemblent à des pumas sauvages. Par nature, ils sont parfois calmes, parfois agressifs. Très intelligent et curieux. De plus, ils sont rapides.'
+      - Abessinierkatzen sehen wie ein Miniaturform eines Pumas aus. Der Charakter ist manchmal ruhig und manchmal aggressiv. Sie sind klug und neugierig. Auβerdem laufen sie schnell.
+      - 'Esternamente, i gatti abissini sembrano dei puma selvatici. Per loro natura sono a volte calmi, a volte aggressivi. Sono molto intelligenti e curiosi. Inoltre, corrono velocemente.'
+      - 'Externamente, los gatos abisinios son similares a los pumas salvajes. Por naturaleza, a veces son tranquilos, a veces agresivos. Muy inteligente e curiosio. Además, corren rápido.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Alien
+      TermType: 0
+      Languages:
+      - 'Вы прибыли с другой планеты. Вам понравилось на Земле, и вы остались жить на ферме. Облачённые в непробиваемую броню и наделённые неведомой силой, вы внушаете страх даже в самых крупных обитателей леса.'
+      - 'You came from another planet. You liked the Earth, and you stayed living on the farm. Clad in impenetrable armor and endowed with unknown power, you make fear even the largest inhabitants of the forest.'
+      - 'Vous avez arrivé d''une autre planète. Vous aimez la Terre et vous êtes resté vivre dans une ferme. Vêtu d''une armure impénétrable et doté d''un pouvoir inconnu, vous effrayez même les plus grands habitants de la forêt.'
+      - 'Sie kommen von einem anderen Planeten. Die Erde hat Ihnen gefallen und Sie sind auf der Farm geblieben.Sie tragen eine undurchdringliche Rüstung, Sie sind unglaublich stark und erschrecken die größten Bewohner des Waldes.'
+      - 'Siete arrivati da un altro pianeta. Vi è piaciuta la Terra e siete rimasti a vivere in una fattoria. Vestiti con corazze imperforabili e dotati di forze misteriose, infondete paura anche ai più grandi abitanti della foresta.'
+      - 'Has venido de otro planeta. Te gustó la Tierra y te quedaste viviendo en la granja. Vestidos con una armadura impenetrable y dotados de poder desconocido, inspiras miedo en los habitantes del bosque incluso más grandes.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Bengal
+      TermType: 0
+      Languages:
+      - 'Тело - мощное, сплошные мускулы. Это лесной зверь с нравом домашнего воспитания. Если выпустить бенгальскую кошку в лес, то она станет тигром, а лес пустым.'
+      - 'Massive body with solid muscles. This is a forest animal with the temper of home training. If you release a Bengal cat in the forest, it will become a tiger, and the forest will be empty.'
+      - 'Le corps est massif, les muscles solides. C''est une bête de forêt avec un tempérament d''animal de la maison. Si vous relâchez un chat Bengale dans la forêt, il deviendra un tigre et la forêt sera vide.'
+      - 'Der Körper ist stark und muskulös. Es ist ein Waldtier mit dem Temperament des Hauserziehung. Wenn eine Bengalkatze in den Wald entlassen wird, wird sie einem Tiger und der Wald wird leer.'
+      - 'Il corpo è potente, i muscoli sono solidi. È un animale della foresta con carattere di educazione domestica. Se un bengala viene rilasciato nella foresta, diventerà tigre e la foresta vuota.'
+      - 'El cuerpo es robusto, músculos sólidos. Es una bestia del bosque con un temperamento doméstico. Si liberas al gato bengalí en el bosque, se convertirá en un tigre, y el bosque está vacío.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Bombay
+      TermType: 0
+      Languages:
+      - 'Бомбейские кошки - это на самом деле маленькие пантеры. У них всегда отличный аппетит, особенно тёмной ночью, когда ничего не видно кроме их золотистых, сверкающих глаз.'
+      - 'The Bombay cats are a small Panthers really. They always have a great appetite, especially during a dark night when you can''t see anything except their Golden, sparkling eyes.'
+      - 'Les Bombays sont en fait de petites panthères. Ils ont toujours un appétit excellent, surtout pendant une nuit sombre quand on ne vout rien à part de leurs yeux dorés et brilliants.'
+      - 'Die Bombay-Katzen sind kleine Panther. Sie immer haben groβer Appetit besonders in einer dunklen Nacht, wenn man nichts sehen kann auβer ihren goldenen, funkelden Augen.'
+      - 'I gatti bombay sono in realtà piccole pantere. Hanno sempre un grande appetito, specialmente di notte al buio, quando non si vede nulla, tranne i loro occhi dorati e scintillanti.'
+      - 'Los gatos de Bombay son en realidad pequeñas Panteras. Siempre tienen un gran apetito, especialmente durante la noche oscura, cuando no se ve nada más que sus ojos dorados y brillantes.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Burmilla
+      TermType: 0
+      Languages:
+      - 'Кошки данной породы - чинные англичане, грациозны и аристократичны. Тяжело переносят одиночество, и лучше всего себя чувствуют в кругу большой семьи.'
+      - 'Cats of this breed are dignified Englishmen, graceful and aristocratic. They suffer from loneliness, and they feel them best when they are with a large family.'
+      - 'Les chats de cette race sont des anglais dignes, gracieux et aristocratiques. Ils ne tolérent pas la solitude, et se sentent mieux dans le cercle d''une grande famille.'
+      - 'Diese Katzen sind anmutig, graziös, die echten Briten. Sie mögen keine Einsamkeit und fühlen sich am besten im Kreis einer groβen Familie.'
+      - 'I gatti di questa razza sono britannici cerimoniosi, aggraziati e aristocratici. Per loro, la solitudine è difficile da tollerare e si sentono meglio all''interno di una cerchia di una numerosa famiglia.'
+      - 'Los gatos de esta raza son inglés ceremoniosos, elegantes y aristocráticos. No poden soportar la soledad, y se sienten mejor con una familia numerosa.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Egyptian
+      TermType: 0
+      Languages:
+      - Благородные и самодостаточные представители эпохи фараонов. К тому же это самые быстрые кошки в мире. Чистоплотны и питают особенную любовь к воде.
+      - 'Noble and self-sufficient representatives of the pharaohs era. In addition, they are the fastest cats in the world. They are clean and have a special love for water.'
+      - 'Représentants nobles et autonomes de l''époque des pharaons. De plus, ce sont des chats les plus rapides du monde. Ils sont propres et ils ont un amour spécial de l''eau.'
+      - 'Sie sind edel und unabhängig, Vertreter der Ära der Pharaonen. Die Ägyptische Mau sind die schnellste. Sie sind sauber und haben eine besondere Liebe zu Wasser.'
+      - 'Sono rappresentanti nobili e autosufficienti dell''epoca dei faraoni. Inoltre, sono i gatti più veloci del mondo. Sono puliti e nutrono un particolare amore per l''acqua.'
+      - 'Nobles y autosuficientes representantes de la era faraónica. Además, estos son los gatos más rápidos del mundo. Limpia y tienen un amor especial por el agua.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Pixibob
+      TermType: 0
+      Languages:
+      - 'Пиксибоб это массивная, боевая порода сродни рыси. Инстинктивно чует слабость, и как только противник даст слабину, то Пиксибоб превратит его в добычу одним движением своей когтистой лапы.'
+      - 'Pixibob it is a massive, militant breed akin to a lynx. It senses Instinctively any weakness, and as soon as the enemy gives a slack, the Pixybob will turn it into prey with a single movement of its claws.'
+      - 'Pixibob est une race massive et combative semblable au Lynx. Ils sentent la faiblesse instinctivement, et dès que l''ennemi donne le mou, le Pixibob le transformera en proie avec un seul mouvement de sa patte griffue.'
+      - 'Pixiebob ist eine massive Kampfkatze, es sieht wie ein Luchs aus. Es fühlt instinktiv Schwäche. Wenn der Feind Schwäche zeigt, Pixiebob verwandelt es mit einer Bewegung seiner Krallentatze in Beute.'
+      - 'Il pixie bob è una razza massiccia e bellicosa, parente della lince. Istintivamente, percepisce la debolezza e, non appena il nemico mostra la sua debolezza, il pixie bob lo trasforma in preda con un movimento dell''artiglio della sua zampa.'
+      - 'Pixibob es una raza masiva, de combate similar a un lince. Siente debilidad instintivamente, y una vez que el enemigo da holgura, Pixibob lo convertirá en presa con un solo movimiento de su garra.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Russian
+      TermType: 0
+      Languages:
+      - 'Глаза изумрудного цвета, прекрасная шерсть с лёгким серебром... Кто может посоревноваться с ними в красоте? Кроткие, деликатные и в тоже время невероятно игривые, русские кошки.'
+      - 'Eyes of emerald color, wonderful blue-grey coat... Who can compete with them in beauty? Gentle, delicate and at the same time incredibly playful, Russian cats.'
+      - 'Les yeux de couleur émeraudes, belle robe de couleur bleue argentée... Qui peut rivaliser avec une telle beauté? Doux, délicats et en même temps incroyablement ludiques, ce sont des chats russes.'
+      - 'Russisch Blau hat smaragdgrüne Augen und silberne Wolle. Wer kann mit ihr in Schönheit konkurieren? Sie ist Sanftmütig, zart und zur gleichen Zeit spielerisch. Und das sind alles russische Katzen.'
+      - 'Occhi di color smeraldo, pelo pregiato leggermente argentato... Chi può competere con loro in bellezza? I gatti russi sono dolci, delicati e allo stesso tempo incredibilmente giocosi.'
+      - 'Ojos de color Esmeralda, lana fina del color de la plata ligera... ¿Quién puede competir con ellos en belleza? Mansos, delicados y al mismo tiempo increíblemente juguetones, son gatos rusos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Siamese
+      TermType: 0
+      Languages:
+      - 'Это истинно королевские кошки древнего Сиама. Чувствительные, и если им что-то не понравилось, то могут быть опасными, ведь они прирождённые охотники.'
+      - 'These are truly Royal cats of ancient Siam. Sensitive, and if they do not like something, they can be dangerous, as they are born hunters.'
+      - 'Ce sont les vrais chats royaux de l''ancien Siam. Sensibles, et s''ils n''aiment pas quelque chose, ils peuvent être dangereux, car ils sont des chasseurs nés.'
+      - 'Das sind wirklich königliche Katzen. Sie sind Empfindlich, aber wenn sie unglücklich sind, können sie gefährlich sein. Immerhin sind sie echte Jäger.'
+      - 'Questi sono gatti veramente da re dell''antico Siam. Sensibili e se qualcosa non gli piacesse, possono essere pericolosi, proprio perché sono nati cacciatori.'
+      - 'Estos son los verdaderos gatos reales del antiguo Siam. Sensibles, y si no les gusta algo, pueden ser peligrosos, porque son cazadores natos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Simple
+      TermType: 0
+      Languages:
+      - 'Ферма это ваш родной дом, а лес вокруг - ваши владения. Ещё с малых лет, будучи котёнком, вы резвились на свежем воздухе в погоне за местными грызунами, чтобы показать им кто здесь хозяин!'
+      - 'The farm is your home, and the forest around it is your domain. Even from the youngest age, as a kitten, you frolicked in the fresh air in a hunt for local rodents, to show them who is the owner here!'
+      - 'La ferme est votre maison natale, et la forêt autour est votre propriété. Dès votre plus jeune âge comme un chaton, vous avez folâtré à l''air libre à la chasse aux rongeurs locaux pour leur montrer qui est le propriétaire réel ici!'
+      - 'Der Farm ist ihr Zuhause und der Wald ist ihr Besitz. Seit Ihrer Kindheit haben Sie im Freien auf der Suche nach Nageterien gespielt, um ihnen zu zeigen, wer hier der Boss ist.'
+      - 'La fattoria è la vostra casa nativa e la foresta intorno è di vostra proprietà. Fin da piccoli, essendo gatti, vi siete avventurati all''aria aperta alla ricerca di roditori locali per far vedere loro chi comanda!'
+      - 'La granja es vuestra hogar y el bosque alrededor son sus posesiones. Desde una edad temprana, siendo un gatito, que se divierten al aire libre en la búsqueda de los roedores locales, para mostrarles quién es el jefe aquí!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Abyssinian1
+      TermType: 0
+      Languages:
+      - '-{[bonus]}% к скорости наступления голода и жажды'
+      - '-{[bonus]}% of hunger and thirst onset rate'
+      - '-{[bonus]}% vitesse de faim et de soif'
+      - '-{[bonus]}% zur Geschwindigkeit des Auftretens von Hunger und Durst'
+      - '-{[bonus]}% per la velocità di insorgenza di fame e sete'
+      - '-{[bonus]}% a la tasa de hambre y sed'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Abyssinian2
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости передвижения'
+      - '+{[bonus]}% movement speed'
+      - '+{[bonus]}% vitesse de mouvement'
+      - '+{[bonus]}% zur Bewegungsgeschwindigkeit'
+      - '+{[bonus]}% per la velocità di spostamento'
+      - '+{[bonus]}% velocidad de viaje'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Alien1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к здоровью, и +{[value]}% к силе атаки'
+      - '+{[bonus]}% health, and +{[value]}% attack power'
+      - '+{[bonus]}% à la santé, et +{[value]}% à la force d''attaque'
+      - '+{[bonus]}% zur Gesundheit und +{[value]}% Angriffskraft'
+      - '+{[bonus]}% per la salute, e +{[value]}% per la forza di attacco'
+      - '+{[bonus]}% a la salud, y + {[value]}% a la fuerza de ataque'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Alien2
+      TermType: 0
+      Languages:
+      - 'Все враги, кроме боссов, бегут в страхе от вас'
+      - 'All enemies, except bosses, run in fear from you'
+      - 'Tous les ennemis, sauf les bosses, courent dans la peur de vous'
+      - 'Alle Feinde, außer den Bossen, laufen Weg von Ihnen.'
+      - 'Tutti i nemici, tranni i boss, corrono via da voi impauriti'
+      - 'Todos los enemigos, excepto los bosses, corren por miedo de TI'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Bengal1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к силе атаки'
+      - '+{[bonus]}% attack power'
+      - '+{[bonus]}% puissance d''attaque'
+      - '+{[bonus]}% zur Angriffskraft'
+      - '+{[bonus]}% per la forza di attacco'
+      - '+{[bonus]}% poder de ataque'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Bengal2
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости передвижения'
+      - '+{[bonus]}% movement speed'
+      - '+{[bonus]}% vitesse de mouvement'
+      - '+{[bonus]}% zur Bewegungsgeschwindigkeit'
+      - '+{[bonus]}% per la velocità di spostamento'
+      - '+{[bonus]}% velocidad de viaje'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Bombay1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к силе атаки из скрытности'
+      - '+{[bonus]}% attack power from stealth'
+      - '+{[bonus]}% puissance d''attaque de camouflage'
+      - '+{[bonus]}% zur Angriffskraft aus der Heimlichkeit'
+      - '+{[bonus]}% per la velocità di attacco di nascosto'
+      - '+{[bonus]}% poder de ataque de sigilo'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Bombay2
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости передвижения в скрытности'
+      - '+{[bonus]}% movement speed in stealth'
+      - '+{[bonus]}% vitesse de mouvement dans le camouflage'
+      - '+{[bonus]}% zur Bewegungsgeschwindigkeit in der Heimlichkeit'
+      - '+{[bonus]}% per la velocità di spostamento di nascosto'
+      - '+{[bonus]}% velocidad de viaje en sigilo'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Burmilla1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к здоровью за каждого члена семьи'
+      - '+{[bonus]}% health for every family member'
+      - '+{[bonus]}% de santé pour chaque membre de la famille'
+      - '+{[bonus]}% zur Gesundheit für jedes Familienmitglied'
+      - '+{[bonus]}% per la salute di ogni membro della famiglia'
+      - '+{[bonus]}% a la salud por cada miembro de la familia'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Burmilla2
+      TermType: 0
+      Languages:
+      - 'Фермер, коза и поросёнок дают в {[bonus]} раза больше монет'
+      - 'Farmer, Goat and Piggy give {[bonus]} times more coins'
+      - 'Fermier, Chèvre et Porcelet donnent {[bonus]} fois plus de pièces'
+      - 'Die Farmer, die Ziege und das Schweinchen geben {[bonus]} mehr Geld'
+      - 'L''agricoltore, la capra e il porcellino danno le monete il {[bonus]} delle volte'
+      - 'Granjero, Cabra y Cerdito dan {[bonus]} veces más monedas'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Egyptian1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости передвижения'
+      - '+{[bonus]}% movement speed'
+      - '+{[bonus]}% vitesse de mouvement'
+      - '+{[bonus]}% zur Bewegungsgeschwindigkeit'
+      - '+{[bonus]}% per la velocità di spostamento'
+      - '+{[bonus]}% velocidad de viaje'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Egyptian2
+      TermType: 0
+      Languages:
+      - Увеличена высота прыжка и скорость питья воды
+      - Jump heigh and drink speed increased
+      - L'hauteur de saut et la vitesse de boire amplifiés
+      - Erhöhte Sprunghöhe und Trinkwassergeschwindigkeit
+      - È aumentata l'altezza del salto e la velocità dell'acqua potabile
+      - Ampliar el salto y la velocidad de beber
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Pixibob1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости поедания пищи'
+      - '+{[bonus]}% eating speed'
+      - '+{[bonus]}% vitesse de consommation'
+      - '+{[bonus]}% zur Essensgeschwindigkeit'
+      - '+{[bonus]}% per la velocità di consumazione dei cibi'
+      - '+{[bonus]}% velocidad de comer'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Pixibob2
+      TermType: 0
+      Languages:
+      - 'Если здоровье врага упало ниже {[bonus]}%, то одна атака добьёт его'
+      - 'If enemy health falls below {[bonus]}% you will oneshot him'
+      - 'Si la santé de l''ennemi tombe en dessous de {[bonus]}%, une attaque le fera tomber'
+      - 'Wenn die Gesundheit des Feindes auf {[bonus]}% gesunken ist, dann wird ihm ein Angriff töten'
+      - 'Se la salute del nemico è scesa al di sotto del {[bonus]}%, un attacco lo finirà'
+      - 'Si la salud del enemigo cae por debajo de {[bonus]}%, un ataque lo terminará'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Russian1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к количеству здоровья'
+      - '+{[bonus]}% health points'
+      - '+{[bonus]}% à la quantité de santé'
+      - '+{[bonus]}% zur Gesundheit'
+      - '+{[bonus]}% per la quantità di salute'
+      - '+{[bonus]}% a la cantidad de salud'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Russian2
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к опыту за помощь фермеру, козе или поросёнку'
+      - '+{[bonus]}% experience for helping Farmer, Goat or Piggy'
+      - '+{[bonus]}% d''expérience pour aide Fermier, Chèvre et Piggy'
+      - '+{[bonus]}% zu den Erfarungen für die Hilfe der Farmer, einer Ziege oder einen Schweinchen.'
+      - '+{[bonus]}% per l''esperienza di aiuto per l''agricoltore, la capra e il porcellino'
+      - '+{[bonus]}% de experiencia para ayudar a un granjero, una cabra o un cerdito'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Siamese1
+      TermType: 0
+      Languages:
+      - '+{[bonus]} монеты за выполнение квеста'
+      - '+{[bonus]} coins for completeng a quest'
+      - '+{[bonus]} pièces pour compléter la tâche'
+      - '+{[bonus]} Münzen für den Abschluss der Quest'
+      - '+{[bonus]} monete per aver superato la missione'
+      - '+{[bonus]} monedas para completar la tarea'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Siamese2
+      TermType: 0
+      Languages:
+      - 'Если здоровье падает ниже {[value]}% то сила атаки увеличивается на {[bonus]}%'
+      - 'If your health is below {[value]}%, your attack power increase for {[bonus]}%'
+      - 'Si la santé tombe en dessous de {[value]}% la puissance d''attaque augmente pour {[bonus]}%'
+      - 'Wenn die Gesundheit darunter {[value]}% fällt, dann Angriffskraft erhöht sich um {[bonus]}%'
+      - 'Se la salute scende al di sotto del {[value]}%, la forza di attacco aumenta del {[bonus]}%'
+      - 'Si la salud cae por debajo {[value]}%, poder de ataque aumenta par {[bonus]}%'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Simple
+      TermType: 0
+      Languages:
+      - Не даёт дополнительных бонусов
+      - No special bonuses
+      - Pas de bonus speciale
+      - 'Keine extra-Boni'
+      - Non dà altri bonus
+      - No da bonos
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/AntiAliasingSettingText
+      TermType: 0
+      Languages:
+      - 'Сглаживание (4x MSAA)'
+      - 'Anti-Aliasing (4x MSAA)'
+      - 'Anticrénelage (4x MSAA)'
+      - 'Die Kantenglättung (4x MSAA)'
+      - 'Anti-Aliasing (4x MSAA)'
+      - 'Anti-aliasing espacial (4x MSAA)'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/CloudSyncText
+      TermType: 0
+      Languages:
+      - Сохранение в Облако
+      - CloudSync
+      - CloudSync
+      - CloudSync
+      - CloudSync
+      - CloudSync
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/DescriptionText
+      TermType: 0
+      Languages:
+      - 'Здесь вы можете включить подвижный джойстик который будет следовать за пальцем. Если у вас мощное устройство, то вы также можете включить сглаживание для улучшения картинки, и отключить ограничение FPS для повышения плавности игры. Кроме того, здесь вы можете настроить размер элементов интерфейса для более удобной игры.'
+      - 'Here you can turn on the mobile joystick that will follow your finger. If you have a powerful device, you can also enable anti-aliasing to improve the image, and disable the FPS limit to improve the smoothness of the game. In addition, here you can adjust the size of the interface elements for a more convenient game.'
+      - 'Ici, vous pouvez activer le joystick mobile qui suivra le doigt. Si vous avez un appareil puissant, vous pouvez également activer l''Anticrénelage pour améliorer l''image, et désactiver la restriction FPS pour améliorer la fluidité du jeu. En outre, ici, vous pouvez ajuster la taille des éléments de l''interface pour le jeu plus confortable.'
+      - 'Hier kann man den Joystick aktivieren, der wird dem Finger folgen. Man kann auch die Kantenglättung aktivieren und die Einschränkung der FPS ausschalten für ein besseres Bild, wenn er eine mächtige Gerät hat. Auβerdem kann man hier die Gröβe der Schnittstelle für ein besseres Spiel wählen.'
+      - 'Qui si può attivare il joystick in movimento che seguirà il movimento del dito. Se si possiede un dispositivo avanzato, si può anche attivare l''anti-aliasing per migliorare l''immagine e disattivare la restrizione FPS per aumentare la fluidità del gioco. Inoltre, qui si possono regolare le dimensioni degli elementi dell''interfaccia per giocare più comodamente.'
+      - 'Aquí puede activar el joystick móvil que seguirá el dedo. Si tiene un dispositivo potente, también puede activar Anti-aliasing espacial para mejorar la imagen, y desactivar el límite de FPS para mejorar la suavidad del juego. Además, aquí puede ajustar el Tamaño de los elementos de la interfaz para un juego más cómodo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/EffectsText
+      TermType: 0
+      Languages:
+      - Громкость эффектов
+      - Effects volume
+      - Volume des effets
+      - Lautstärke der Effekte
+      - Volume degli effetti
+      - Efectos de volumen
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/EnterGooglePlayText
+      TermType: 0
+      Languages:
+      - Войти в Google Play
+      - Sign in Google Play
+      - 'Se-connecter à Google Play'
+      - Eintragen Google Play
+      - Accedere a Google Play
+      - Iniciar sesión en Google Play
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/ExitGooglePlayText
+      TermType: 0
+      Languages:
+      - Выйти из Google Play
+      - To log out Google Play
+      - Se déconnecter de Google Play
+      - Verlassen Google Play
+      - Uscire da Google Play
+      - Salir de Google Play
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/JoystickText
+      TermType: 0
+      Languages:
+      - Подвижный джойстик
+      - Movable joystick
+      - Joystick mobile
+      - Beweglicher Joystick
+      - Joystick in movimento
+      - Joystick móvil
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/LanguageTitleText
+      TermType: 0
+      Languages:
+      - 'Язык игры:'
+      - 'Game language:'
+      - 'Langue du jeu:'
+      - 'Die Spielsprache:'
+      - 'Lingua del gioco:'
+      - 'Idioma del juego:'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/MusicText
+      TermType: 0
+      Languages:
+      - Громкость музыки
+      - Music volume
+      - Volume de la musique
+      - Die Musiklautstärke
+      - Volume della musica
+      - Volumen de la música
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/RestorePurchasesText
+      TermType: 0
+      Languages:
+      - Восстановить покупки
+      - Restore purchases
+      - Restaurer les achats
+      - Einkäufe wiederherstellen
+      - Ripristina gli acquisti
+      - Restaurar compras
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/UIScaleText
+      TermType: 0
+      Languages:
+      - Размер интерфейса
+      - Interface scale
+      - Taille de l'interframe
+      - Die Gröβe der Schnittstelle
+      - Dimensione dell'interfaccia
+      - Tamaño de intefreis
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/VSyncText
+      TermType: 0
+      Languages:
+      - 'Ограничение FPS (энергосбережение)'
+      - 'FPS limit (energy conservation)'
+      - 'Limite FPS (économie d''énergie)'
+      - 'Die Einschränkung der FPS (energieeinsparung)'
+      - 'Limite FPS (risparmio energetico)'
+      - 'Limitación de FPS (conservación energética)'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/Boss
+      TermType: 0
+      Languages:
+      - Босс
+      - Boss
+      - Boss
+      - Der Boss
+      - Boss
+      - Boss
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/MiniBoss
+      TermType: 0
+      Languages:
+      - 'Мини-Босс'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      - 'Der Mini-boss'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/Plant
+      TermType: 0
+      Languages:
+      - Огород
+      - Plantation
+      - Potager
+      - Der Garten
+      - Orto
+      - Huerta
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/Player
+      TermType: 0
+      Languages:
+      - Ваш персонаж
+      - Player
+      - Votre personnage
+      - Ihr Charakter
+      - Il vostro personaggio
+      - Tu personaje
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/Spouse
+      TermType: 0
+      Languages:
+      - Жених/Невеста
+      - Bride/Groom
+      - Marié/Mariée
+      - Der Verlobter/Die Braut
+      - Sposo/Sposa
+      - Novio/Novia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MapWindow/Water
+      TermType: 0
+      Languages:
+      - Источник воды
+      - Water
+      - Source d'eau
+      - Der Wasserquelle
+      - Fonte d'acqua
+      - Fuente de agua
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/AcornDescription
+      TermType: 0
+      Languages:
+      - 'Из всех врагов начинают выпадать монеты. Действует {[time]} минут.'
+      - 'Coins fall from all the enemies. Valid for {[time]} minutes.'
+      - 'Des pièces tombent de tous les ennemis. Valide {[time]} minutes.'
+      - 'Münzen fallen aus allen Feinden. Dauert {[time]} Minuten.'
+      - 'Da tutti i nemici iniziano a cadere le monete. Valido per {[time]} minuti.'
+      - 'De todos los enemigos caen monedas. Válido {[time]} minutos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/AcornName
+      TermType: 0
+      Languages:
+      - Желудь Удачи
+      - Acorn of Luck
+      - Gland De Chance
+      - Die Glückseichel
+      - Ghianda di buona fortuna
+      - Bellota de la fortuna
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/BootsDescription
+      TermType: 0
+      Languages:
+      - 'Увеличивается прыжок и скорость передвижения. Действует {[time]} минут.'
+      - 'Increases jump and movement speed. Valid for {[time]} minutes.'
+      - 'Amplifie l''hauteur de saut et la vitesse de mouvement. Valide {[time]} minutes'
+      - 'Der Sprung und die Bewegungsgeschwindigkeit steigen an. Dauert {[time]} Minuten.'
+      - 'Aumentano il salto e la velocità di spostamento. Valido per {[time]} minuti.'
+      - 'Ampliar el salto y la velocidad de viaje. Válido {[time]} minutos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/BootsName
+      TermType: 0
+      Languages:
+      - Сандали Ловкости
+      - Boots of Agility
+      - Sandales d'agilité
+      - Die Geschickssandalen
+      - Sandali dell'agilità.
+      - Sandalias de agilidad
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/MilkDescription
+      TermType: 0
+      Languages:
+      - 'Увеличивается скорость восстановления здоровья. Действует {[time]} минут.'
+      - 'Increases health recovery speed. Valid for {[time]} minutes.'
+      - 'Augmente le taux de récupération de la santé . Valide {[time]} minutes.'
+      - 'Die Geschwindigkeit der Wiederherstellung der Gesundheit steigt an. Dauert {[time]} Minuten.'
+      - 'Aumenta la velocità di ripristino della salute. Valido per {[time]} minuti.'
+      - 'Aumenta la tasa de restauración de la salud. Válido {[time]} minutos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SuperBonuses/MilkName
+      TermType: 0
+      Languages:
+      - Молоко Целебности
+      - Healing milk
+      - Lait de la Guérison
+      - Die Heilungsmilch
+      - Latte curativo
+      - Leche de la salubridad
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: VegetableNames/Beet
+      TermType: 0
+      Languages:
+      - Свекла
+      - Beet
+      - Betterave
+      - Das Bete
+      - Barbabietola
+      - Remolacha
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: VegetableNames/Carrot
+      TermType: 0
+      Languages:
+      - Морковь
+      - Carrot
+      - Carotte
+      - Die Karrote
+      - Carota
+      - Zanahoria
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: VegetableNames/Pumpkin
+      TermType: 0
+      Languages:
+      - Тыква
+      - Pumpkin
+      - Citrouille
+      - Der Kürbis
+      - Zucca
+      - Calabaza
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: VegetableNames/Turnip
+      TermType: 0
+      Languages:
+      - Репа
+      - Turnip
+      - Navet
+      - Die Rübe
+      - Rapa
+      - Nabo
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Boar
+      TermType: 0
+      Languages:
+      - Кабан
+      - Boar
+      - Sanglier
+      - Der Eber
+      - Cinghiale
+      - Jabalí
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Bunny
+      TermType: 0
+      Languages:
+      - Заяц
+      - Hare
+      - Lièvre
+      - Der Hase
+      - Lepre
+      - Liebre
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Fox
+      TermType: 0
+      Languages:
+      - Лиса
+      - Fox
+      - Renard
+      - Der Fuchs
+      - Volpe
+      - Zorro
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Mouse
+      TermType: 0
+      Languages:
+      - Мышь
+      - Mouse
+      - Souris
+      - Der Maus
+      - Topo
+      - Rata
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Raccoon
+      TermType: 0
+      Languages:
+      - Енот
+      - Raccoon
+      - Raton
+      - Der Waschbär
+      - Procione
+      - Mapache
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemyArchetypeNames/Spider
+      TermType: 0
+      Languages:
+      - Паук
+      - Spider
+      - Araignée
+      - Die Spinne
+      - Ragno
+      - Araña
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemySchemeNames/Boss
+      TermType: 0
+      Languages:
+      - Босс
+      - Boss
+      - Boss
+      - Boss
+      - Boss
+      - Boss
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: EnemySchemeNames/MiniBoss
+      TermType: 0
+      Languages:
+      - 'Мини-Босс'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      - 'Mini-Boss'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/Apple
+      TermType: 0
+      Languages:
+      - Яблоко
+      - Apple
+      - Pomme
+      - Der Apfel
+      - Mela
+      - Manzana
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/BadMushroom
+      TermType: 0
+      Languages:
+      - Мухомор
+      - Agaric
+      - Amanite
+      - Der Fliegenpilz
+      - Fungo vecchio
+      - Matamoscas
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/Egg
+      TermType: 0
+      Languages:
+      - Яйцо
+      - Egg
+      - Oeuf
+      - Das Ei
+      - Uovo
+      - Huevo
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/GoodMushroom
+      TermType: 0
+      Languages:
+      - Гриб
+      - Mushroom
+      - Champignon
+      - Pilz
+      - Fungo
+      - Seta
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/Mouse
+      TermType: 0
+      Languages:
+      - 'Мышь (еда)'
+      - 'Mouse (food)'
+      - 'Sourir (repas)'
+      - 'Der Maus (essen)'
+      - 'Topo (cibo)'
+      - 'Rata (comida)'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FoodNames/Spider
+      TermType: 0
+      Languages:
+      - 'Паук (еда)'
+      - 'Spider (food)'
+      - 'Araignée (repas)'
+      - 'Die Spinne (essen)'
+      - 'Ragno (cibo)'
+      - 'Araña (comida)'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintChild1
+      TermType: 0
+      Languages:
+      - 'Поздравления, у вас родился первый ребёнок! На вас ложится большая ответственность по обучению и кормлению вашего малыша. Следите за потребностью над ребёнком, и старайтесь удовлетворять её, чтобы ускорить рост ребёнка. Чем старше ребёнок, тем сильнее он помогает в схватке с противником.'
+      - 'Congratulations, your first child was born! You have a great responsibility to train and feed your baby. Take care of needs of the child, and try to meet it to speed up the growth of the child. The older the child, the more he helps in the fight with the enemy.'
+      - 'Félicitations, vous avez eu votre premier enfant! Vous avez une grande responsabilité dans l''éducation et l''alimentation de votre bébé. Surveillez les besoins de l''enfant et essayez de le satisfaire pour accélérer la croissance de l''enfant. Le plus est l''âge de l''enfant, le plus il aide dans la bataille avec l''ennemi.'
+      - 'Glückwunsch! Ihr ersten Kind wurde geboren.Sie müssen Ihr Kind füttern und lehren. Behalten Sie die Bedürfnisse Ihres Kindes und versuchen sie zu erfüllen. So wird das Kind schneller wachsen. Je älter das Kind ist, desto mehr hilft es im Kampf.'
+      - 'Congratulazioni! Avete avuto il vostro primo figlio! Avete una grande responsabilità nell''educare e nutrire il vostro piccolo. Abbiate cura delle necessità del bambino e cercate di soddisfarle per accelerare la crescita del bambino. Quanto più il bambino cresce, tanto più potrà aiutarvi nella battaglia contro il nemico.'
+      - 'Felicitaciones, usted tuvo su primer hijo! Usted tiene una gran responsabilidad en el entrenamiento y la alimentación de su bebé. Observe la necesidad sobre el bebé y trate de satisfacerla para acelerar el crecimiento del bebé. Cuanto más viejo es el niño, más ayuda en la lucha con el enemigo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintChild3
+      TermType: 0
+      Languages:
+      - 'Ваш ребёнок, что совсем недавно был малышом, стал молодым подростком! Теперь он стал намного сильнее и будет больше помогать вам в схватке. А вы можете завести ещё одного ребёнка, чтобы сделать вашу семью большой и счастливой. Воспитайте ещё двух детей.'
+      - 'Your child, who was just a toddler, has become a young teenager! Now he has become much stronger and will help you more in the fight. And you can have another child to make your family big and happy. Raise two more children.'
+      - 'Votre enfant, qui était récemment un bebe en bas âge, est devenu un jeune adolescent! Maintenant, il est devenu beaucoup plus fort et vous aidera plus dans le combat. Et vous pouvez avoir un autre enfant pour rendre votre famille grande et heureuse. Élevez deux autres enfants.'
+      - 'Ihr Kind ist ein Teenager jetzt! Jetzt ist es viel stärker und wird mehr im Kampf helfen. Sie können ein anderes Kind jetzt haben, um Ihre Familie gröβer und glücklicher zu machen. Erziehen zwei weitere Kinder.'
+      - 'Vostro figlio, che era solo un adolescente, è adesso diventato un giovane adolescente! Ora è molto più forte e vi aiuterà di più nella battaglia. Potete avere altri figli per rendere la famiglia grande e felice. Crescete altri due figli.'
+      - '¡Su hijo, que recientemente era un niño pequeño, se convirtió en un joven adolescente! Ahora se ha vuelto mucho más fuerte y te ayudará más en la lucha. Y usted puede tener otro hijo para hacer que su familia grande y feliz. Criar a dos hijos más.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintFamilyParamZero
+      TermType: 0
+      Languages:
+      - 'Внимание! Ваша семья сильно проголодалась, вы должны срочно покормить её, иначе она не будет помогать вам в схватке с врагами. Чтобы покормить семью подойдите к пище, и нажмите на кнопку с изображением разноцветных кусочков мяса, которая появится вместо кнопки атаки.'
+      - 'Attention! Your family is very hungry, you must urgently feed it, otherwise it will not help you in the fight with the enemies. To feed the family, go to the food, and click on the button with the image of colored pieces of meat, which will appear instead of the attack button.'
+      - 'Attention! Votre famille a beaucoup faim, vous devez la nourrir d''urgence, sinon elle ne vous aidera pas dans la bataille avec les ennemis. Pour nourrir la famille aller à la nourriture, et cliquez sur le bouton avec l''image des morceaux de viande colorés qui apparaîtra à la place du bouton d''attaque.'
+      - 'Achtung! Ihre Familie hat Hunger. Sie müssen Ihre Familie dringend füttern, andernfalls wird sie im Kampf nicht helfen. Um die Familie zu füttern gehen Sie zum Essen und drücken die Taste mit mehrfarbige Essenstücke, die auftaucht anstatt die Angrifftaste.'
+      - 'Attenzione! La vostra famiglia ha molta fame, dovete nutrirla urgentemente, altrimenti non potrà aiutarvi nella battaglia contro i nemici. Per nutrire la famiglia, andate al cibo e cliccate sul pulsante che appare al posto del pulsante di attacco e dove c''è l''immagine di pezzi di carne multicolore.'
+      - '¡Atención! Su familia tiene mucha hambre, hay que alimentarla con urgencia, de lo contrario no le ayudará en la batalla con los enemigos. Para alimentar a la familia, vaya a la comida, y haga clic en el botón con la imagen de los trozos de carne de colores, que aparecerá en lugar del botón de ataque.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintGarden
+      TermType: 0
+      Languages:
+      - 'Вы подошли к месту посадки овоща. Для посадки овоща вам необходимо иметь определённое количество монет и нажать кнопку посадки, которая появляется вместо кнопки атаки. После посадки овоща он навсегда даёт вам бонус определённого типа. Вы можете посадить тыкву, морковь, репу или свеклу.'
+      - 'You came to the place for planting vegetable. To plant a vegetable, you need to have a certain number of coins and click the plant button that appears instead of the attack button. After planting a vegetable, it will give you a bonus of a certain type forever. You can plant pumpkins, carrots, turnips or beets.'
+      - 'Vous avez approché le site de plantation du légume. Pour planter un légume, vous avez besoin d''un certain quantité de pièces et appuyer sur le bouton de plantation qui apparaît à la place du bouton d''attaque. Après avoir planté le légume, il vous donne un bonus d''un certain type pour toujour. Vous pouvez planter des citrouilles, des carottes, des navets ou des betteraves.'
+      - 'Sie sind an den Ort gekommen, an dem Sie das Gemüse anpflanzen. Um ein Gemüse zu pflanzen, müssen Sie eine bestimmte Anzahl von Münzen haben und die Pflanztaste drücken, der anstelle der Angriffstaste angezeigt wird. Nachdem Sie ein Gemüse gepflanzt haben, gibt er Ihnen für immer einen Bonus. Sie können Kürbis, Karotten, Bete oder Rüben pflanzen.'
+      - 'Siete arrivati nel luogo in cui avete piantato le verdure. Per piantare delle verdure, dovete avere un certo numero di monete e cliccare il pulsante di semina che appare al posto del pulsantre di attacco. Dopo aver piantato una verdura, avrete per sempre un bonus di un certo tipo. Potete piantare zucche, carote, rape e barbabietole.'
+      - 'Has llegado al lugar de siembra de la verdura. Para plantar un vegetal, debe tener un cierto número de monedas y presionar el botón de aterrizaje que aparece en lugar del botón de ataque. Después de plantar la verdura, siempre te da un cierto tipo de bonificación. Puedes plantar calabazas, zanahorias, nabos o remolachas.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintParamZero
+      TermType: 0
+      Languages:
+      - 'Внимание! Один из жизненных параметров сильно упал. Вам необходимо срочно восстановить силы. Если вы голодны, то у вас будет падать здоровье. Если вы испытываете жажду, то у вас будет страдать пищеварение. Следите за вашим состоянием, ешьте и пейте, чтобы не погибнуть.'
+      - 'Attention! One of the life parameters has dropped a lot. You need to restore your strength urgently. If you are hungry, your health will drop. If you are thirsty, your digestion will suffer. Keep an eye on your condition, eat and drink, to stay alife.'
+      - 'Attention! L''un des paramètres de la vie a fortement chuté. Vous devez récupérer d''urgence. Si vous avez faim, votre santé diminue. Si vous avez soif, votre digestion souffri. Surveillez votre état, mangez et buvez pour ne pas mourir.'
+      - 'Achtung! Einer der entscheidenden Parameter ist gesunken. Sie müssen dringend mit das etwas machen. Wenn Sie hungrig sind, wird Ihre Gesundheit sinken. Wenn Sie durstig sind, leidet Ihre Verdauung. Beobachten Sie Ihren Zustand, essen und trinken Sie, um nicht zu sterben.'
+      - 'Attenzione! Uno dei vostri parametri vitali è calato drasticamente. Avete urgente bisogno di riprendere le forze. Se avete fame, calerà la vostra salute. Se avete sete, ne soffrirà la vostra digestione. Controllate le vostre condizioni, mangiate e bevete per non morire.'
+      - '¡Atención! Uno de los parámetros de la vida cayó gravemente. Usted necesita urgentemente para recuperarse. Si tienes hambre, entonces tendrás una caída en la salud. Si tienes sed, entonces sufrirás digestión. Vigile su condición, coma y beba para no morir.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintResidents
+      TermType: 0
+      Languages:
+      - 'Вы встретились с жителем фермы. Принесите ему предметы определённого типа и он наградит вас монетами и Супер-Бонусом. Найти фермера, козу или поросёнка можно с помощью карты. Если вы поможете жителю некоторое количество раз, то получите Супер-Бонус навсегда, а он начнёт давать вам удвоенное количество монет за последующую помощь.'
+      - 'You met a resident of the farm. Bring him items of a certain type and he will reward you with coins and a Super Bonus. You can use the map to find Farmer, Goat or Piggy. If you help a resident a certain number of times, you will get a Super Bonus forever, and he will give you double amount of coins for next help.'
+      - 'Vous avez rencontré un résident de la ferme. Apportez-lui des objets d''un certain type et il vous récompensera avec des pièces de monnaie et Un super Bonus. Vous pouvez trouver Fermier, Chèvre ou Porcelet en utilisant la carte. Si vous aidez le résident un certain nombre de fois, vous obtiendrez un Super Bonus pour toujours, et il vous donnera le double quantité de pièces pour l''aide future.'
+      - 'Sie haben einen Bewohner der Farm getroffen. Bringen Sie ihm Sachen eines bestimmten Typs und er wird Sie mit Münzen und einem Super Bonus belohnen. Sie können eine Farmer, eine Ziege oder ein Schweinchen anhand einer Karte finden. Wenn Sie einem Bewohner eine bestimmte Anzahl von Malen helfen, erhalten Sie für immer einen Super-Bonus, und er gibt Ihnen die doppelte Anzahl an Münzen für die spätere Hilfe.'
+      - 'Avete incontrato un residente della fattoria. Portategli oggetti di un certo tipo e lui vi ricompenserà con monete e super bonus. È possibile trovare l''agricoltore, la capra o il maialino con l''aiuto di una mappa. Se aiutate un residente un certo numero di volte, riceverete un super bonus per sempre e lui vi darà il doppio delle monete per l''assistenza successiva.'
+      - 'Se reunió con un residente de la granja. Llévale objetos de cierto tipo y él te recompensará con monedas y Un súper Bono. Puedes encontrar un Granjero, Cabra o Cerdito usando el mapa. Si ayudas a un residente un número de veces, obtendrás Un súper Bono para siempre, y él comenzará a darte el doble de monedas para la ayuda posterior.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintSpouse
+      TermType: 0
+      Languages:
+      - 'Поздравления, вы завели семью! Член вашей семьи будет защищать вас в схватке. Но не забывайте, что ему тоже нужно питаться. Чтобы покормить семью подойдите к пище, и нажмите на кнопку с разноцветными кусочками мяса, которая появится вместо кнопки атаки. Чем больше сыт член семьи, тем больше урона он будет наносить при сражении с противником.'
+      - 'Congratulations, you have started a family! A member of your family will protect you in the fight. But don''t forget that he also needs to eat. To feed the family, go to the food, and click on the button with colored pieces of meat that will appear instead of the attack button. The more fed a family member is, the more damage he will do when fighting with the enemy.'
+      - 'Félicitations, vous avez une famille! Un membre de votre famille vous protégera dans la mêlée. Mais n''oubliez pas qu''il doit aussi manger. Pour nourrir la famille aller à la nourriture, et cliquez sur le bouton avec des morceaux de viande colorés qui apparaîtra à la place du bouton d''attaque. Plus un membre de la famille est rassasié, plus de dégâts il infligera dans la bataille avec l''ennemi.'
+      - 'Herzlichen Glückwunsch, Sie haben eine Familie gegründet! Ein Mitglied Ihrer Familie wird Sie im Kampf beschützen. Aber vergessen Sie nicht, dass er auch essen muss.Um die Familie zu füttern gehen Sie zum Essen und drücken die Taste mit mehrfarbige Essenstücke, die auftaucht anstatt die Angrifftaste. Je mehr ein Familienmitglied gefüttert wird, desto mehr Schaden verursacht es im Kampf gegen einen Feind.'
+      - 'Congratulazioni, avete creato una famiglia! Un membro della vostra famiglia vi proteggerà nella mischia. Ma non dimenticate che anche lui ha bisogno di mangiare. Per nutrire la famiglia, andate al cibo e cliccate sul pulsante che appare al posto del pulsante di attacco e dove ci sono pezzi di carne multicolore. Più verrà nutrito un membro della famiglia e maggiore sarà il danno che infliggerà quando combatterà un nemico.'
+      - '¡Felicidades, tienes una familia! Un miembro de tu familia te protegerá en una pelea. Pero no olvides que él también necesita comer. Para alimentar a la familia, vaya a la comida, y haga clic en el botón con trozos de carne de colores, que aparecerá en lugar del botón de ataque. Cuanto más lleno esté un miembro de la familia, más daño infligirá al luchar contra el enemigo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintStealth
+      TermType: 0
+      Languages:
+      - 'Вы вошли в режим скрытности. Когда вы в скрытности, то противники не слышат ваших шагов, но могут вас увидеть. Поэтому старайтесь не попадаться им на глаза, а подбирайтесь к ним сзади. Атака из скрытности наносит огромный урон, и даёт вам весомое преимущество в схватке.'
+      - 'You entered stealth mode. When you are in stealth, your opponents can''t hear your footsteps, but they can see you. Therefore, try not to get in their eyes, and get close to them from behind. A stealth attack deals huge damage, and gives you a significant advantage in the fight.'
+      - 'Vous êtes entré en mode camouflage. Lorsque vous êtes camouflés, les ennemis n''entendent pas vos pas, mais peuvent vous voir. C''est pourquoi, essayez de ne pas tomber dans leurs yeux, et de les ramasser par derrière. L''attaque de camouflage inflige d''énormes dégâts et vous donne un avantage considérable dans la mêlée.'
+      - 'Sie haben den Geheim-Modus aufgerufen. Wenn Sie im Geheimen sind, hören die Feinde Ihre Schritte nicht, aber sie können Sie sehen. Versuchen Sie daher, nicht aufzufallen, sondern sich ihnen von hinten zu nähern. Ein Geheim-Angriff verursacht enormen Schaden und verschafft Ihnen im Kampf einen erheblichen Vorteil.'
+      - 'Avete inserito la modalità invisibile. Quando siete invisibili, gli avversari non possono sentire i vostri passi, ma possono vedervi. Pertanto, cercate di non capitare davanti ai loro occhi, ma avvicinatevi da dietro. Un attacco di nascosto infligge un enorme danno e dà un vantaggio significativo nella battaglia.'
+      - 'Has entrado en modo sigiloso. Cuando estás en secreto, los oponentes no escuchan tus pasos, pero pueden verte. Por lo tanto, trate de no caer en sus ojos, y recoger a ellos por detrás. El ataque sigiloso causa un daño enorme y te da una ventaja significativa en la lucha.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintWelcome
+      TermType: 0
+      Languages:
+      - 'Чтобы чувствовать себя хорошо, следите за своим здоровьем, сытостью и жаждой. Кушайте, пейте воду, когда необходимо. Охраняйте ферму от вредителей, помогайте фермеру, козе и поросёнку. Занимайтесь огородом. На 5 уровне вы сможете вступить в брак, а на 10 уровне завести ребёнка. Выполняйте квесты, собирайте монеты, открывайте новые породы. Вперёд к приключениям!'
+      - 'To feel good, keep an eye on your health, satiety, and thirst. Eat and drink water when necessary. Protect the farm from pests, help Farmer, Goat and Piggy. Take care of the garden. At level 5, you can get married, and at level 10, you can have a child. Complete quests, collect coins, and unlock new cat breeds. Forward to the adventure!'
+      - 'Pour vous sentir bien, surveillez votre santé, votre satiété et votre soif. Mangez, buvez de l''eau si nécessaire. Protéger la ferme contre les ravageurs, aider Fermier, Chèvre et Porcelin. Occupez-vous du potager. Au niveau 5, vous pouvez vous marier et au niveau 10, avoir un enfant. Terminez des tâches, collectez des pièces, débloquez de nouvelles races. Allez à l''aventure!'
+      - 'Um sich gut zu fühlen, überwachen Sie Ihre Gesundheit, Ihr Sättigungsgefühl und Ihren Durst. Essen Sie und trinken Sie. Schützen Sie die Farm vor Schädlingen, helfen Sie der Farmer, der Ziege und dem Schweinchen. Behalten Sie der Garten. Auf Level 5 können Sie heiraten und auf Level 10 ein Kind haben. Schließen Quests ab, sammeln Münzen und entdecken neue Rassen. Mach ein Abenteuer!'
+      - 'Per stare bene, abbiate cura della vostra salute, sazietà e sete. Mangiate, bevete acqua quando necessario. Proteggete la fattoria dai parassiti, aiutate l''agricoltore, la capra e il maialino. Occupatevi dell''orto. Al livello 5 potete contrarre matrimonio e al livello 10 avere un figlio. Completate le missioni, raccogliete le monete, scoprite nuove razze. Vai con le avventure!'
+      - 'Para sentirse bien, controle su salud, saciedad y sed. Come, bebe agua cuando sea necesario. Proteger la granja de plagas, ayudar a Granjero, Cabra y Cerdito. Haga un huerto. En el nivel 5, puede casarse y en el nivel 10 tener un hijo. Completa misiones, recoge monedas, desbloquea nuevas razas. ¡Adelante a la aventura!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintSleep
+      TermType: 0
+      Languages:
+      - 'Все кошки любят отдохнуть в теньке после напряжённого дня. Нажмите на кнопку с изображением полумесяца, которая появится вместо кнопки атаки, когда потребуется крепкий сон. Восстановив силы, вы сможете продолжить своё приключение.'
+      - 'All cats like to relax in the shade after a busy day. Click on the Crescent button that will appear instead of the attack button when you need a good night''s sleep. After recovering your strength, you can continue your adventure.'
+      - 'Tous les chats aiment se détendre dans l''ombre après une journée bien remplie. Cliquez sur le bouton représentant un croissant qui apparaîtra à la place du bouton d''attaque lorsque vous aurez besoin d''un sommeil réparateur. Une fois la force rétablie, vous pouvez continuer votre aventure.'
+      - 'Alle Katzen mögen nach einem anstrengenden Tag im Schatten zu entspannen. Drücken Sie die Halbmondtaste, die anstelle der Angriffstaste angezeigt wird, wenn Sie einen guten Schlaf benötigen. Nachdem können Sie Ihr Abenteuer fortsetzen.'
+      - 'Tutti i gatti amano rilassarsi all''ombra dopo una giornata intensa. Cliccate sul pulsante a mezzaluna che appare al posto del pulsante di attacco, quando avete bisogno di dormire. Dopo aver riacquisito le forze, potete continuare la vostra avventura.'
+      - 'A todos los gatos les gusta descansar en la sombra después de un día ocupado. Haga clic en el botón con la imagen de la media Luna, que aparecerá en lugar del botón de ataque cuando necesite un sueño profundo. Una vez que recuperes la fuerza, podrás continuar tu aventura.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/SmallHint1
+      TermType: 0
+      Languages:
+      - На 5 уровне вы сможете завести семью
+      - At level 5 you can start a family
+      - 'Au niveau 5, vous pouvez fonder une famille'
+      - Auf Level 5 können Sie eine Familie gründen
+      - Al livello 5 potete creare una famiglia
+      - 'En el nivel 5, usted será capaz de formar una familia'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/SmallHint2
+      TermType: 0
+      Languages:
+      - На 10 уровне вы сможете завести ребёнка
+      - At level 10 you will be able to have a child
+      - 'Au niveau 10, vous pouvez avoir un enfant'
+      - Auf Level 10 können Sie ein Kind haben.
+      - Al livello 10 potete avere un figlio
+      - 'En el nivel 10, usted será capaz de tener un bebé'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/SmallHint3
+      TermType: 0
+      Languages:
+      - Всего вы можете завести три ребёнка
+      - You can have three children in total
+      - 'Au total, vous pouvez avoir trois enfants'
+      - Sie können insgesamt drei Kinder haben.
+      - Potete avere tre figli in tutto.
+      - 'En total, puedes tener tres hijos'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/Cost
+      TermType: 0
+      Languages:
+      - '{[cost]} монет'
+      - '{[cost]} coins'
+      - '{[cost]} pièces'
+      - '{[cost]} Münzen'
+      - '{[cost]} moneta'
+      - '{[cost]} monedas'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/ExperienceBonus
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к получаемому опыту'
+      - '+{[bonus]}% expeience gained'
+      - '+{[bonus]}% expérience acquise'
+      - '+{[bonus]}% zu den gewonnenen Erfarungen'
+      - '+{[bonus]}% per l''esperienza fatta'
+      - '+{[bonus]}% experiencia obtenida'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/HealthBonus
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к количеству здоровья'
+      - '+{[bonus]}% health points'
+      - '+{[bonus]}% a quantité de santé'
+      - '+{[bonus]}% zur Gesundheit'
+      - '+{[bonus]}% per la quantità della salute'
+      - '+{[bonus]}% a la cantidad de salud'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/HintButtonText
+      TermType: 0
+      Languages:
+      - Помощь по квесту
+      - Quest hints
+      - Conseil pour la tâche
+      - Hilfe bei die Quest
+      - Aiuto nella missione
+      - Consejos para tarea
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/HitPowerBonus
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к силе атаки из скрытности'
+      - '+{[bonus]}% attack power from stealth'
+      - '+{[bonus]}% puissance d''attaque de camouflage'
+      - '+{[bonus]}% zur Angriffskraft aus der Heimlichkeit'
+      - '+{[bonus]}% per la velocità di attacco di nascosto'
+      - '+{[bonus]}% poder de ataque de sigilo'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/LevelUpText
+      TermType: 0
+      Languages:
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C {[levelNumber]} \u0434\u043E\u0441\u0442\u0438\u0433\u043D\u0443\u0442!\n(\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435 \u0438 \u0441\u0438\u043B\u0430 \u0443\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u044B)"
+      - "Level {[levelNumber]} reached!\n(Health and attack power increased)"
+      - "Niveau {[levelNumber]} atteint!\n(Sant\u00E9 et puissance d'attaque amplifi\u00E9s)"
+      - "Level {[levelNumber]} erhalten.\n(Die Gesundheit und der St\u00E4rke sind
+      angestiegen)"
+      - "Livello {[levelNumber]} superato!\n(Aumentati salute e forza)"
+      - "Nivel {[levelNumber]} alcanzado!\n(Salud y poder de ataque aumentado)"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/MoveSpeedBonus
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к скорости передвижения'
+      - '+{[bonus]}% movement speed'
+      - '+{[bonus]}% vitesse de mouvement'
+      - '+{[bonus]}% zur Bewegungsgeschwindigkeit'
+      - '+{[bonus]}% per la velocità di spostamento'
+      - '+{[bonus]}% velocidad de viaje'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/CollectCoin
+      TermType: 0
+      Languages:
+      - Отыскать монеты
+      - Find coins
+      - Trouver des pièces
+      - Münzen finden
+      - Collezionare monete
+      - Encontrar monedas
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/EducateChild
+      TermType: 0
+      Languages:
+      - Обучать Ребёнка
+      - Teach a child
+      - Enseigner les enfants
+      - Den Kind erziehen
+      - Educare il figlio
+      - Educar al niño
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/FeedFamily
+      TermType: 0
+      Languages:
+      - Покормить Семью
+      - Feed the family
+      - Nourrir la famille
+      - Die Familie füttern
+      - Nutrire la famiglia
+      - Alimentar la familia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/GetSpouse
+      TermType: 0
+      Languages:
+      - Завести Семью
+      - Start a family
+      - Fonder une famille
+      - Eine Familie gründen
+      - Contrarre matrimonio
+      - Formar una familia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HelpFarmer
+      TermType: 0
+      Languages:
+      - Помочь Фермеру
+      - Help Farmer
+      - Aider Femrier
+      - Hilf der Farmer
+      - Aiutare l'agricoltore
+      - Ayudar a granjero
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HelpGoat
+      TermType: 0
+      Languages:
+      - Помочь Козе
+      - Help Goat
+      - Aider Chèvre
+      - Hilf der Ziege
+      - Aiutare la capra
+      - Ayudar a Cabra
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HelpPig
+      TermType: 0
+      Languages:
+      - Помочь Поросёнку
+      - Help Piggy
+      - Aider Porcelet
+      - Hilf dem Schweinchen
+      - Aiutare il porcellino
+      - Ayudar a Cerdito
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingBoar
+      TermType: 0
+      Languages:
+      - 'Охота: Кабан'
+      - 'Hunting: Boar'
+      - 'Chasse: Sanglier'
+      - 'Die Jagd: Der Eber'
+      - 'Caccia: cinghiale'
+      - 'Caza: Jabalí'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingBunny
+      TermType: 0
+      Languages:
+      - 'Охота: Заяц'
+      - 'Hunting: Hare'
+      - 'Chasse: Lièvre'
+      - 'Die Jagd: Der Hase'
+      - 'Caccia: lepre'
+      - 'Caza: Liebre'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingFox
+      TermType: 0
+      Languages:
+      - 'Охота: Лиса'
+      - 'Hunting: Fox'
+      - 'Chasse: Renard'
+      - 'Die Jagd: Der Fuchs'
+      - 'Caccia: volpe'
+      - 'Caza: Zorro'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingMiniboss
+      TermType: 0
+      Languages:
+      - 'Охота: Мини-босс'
+      - 'Hunting: Mini-boss'
+      - 'Chasse: Mini-boss'
+      - 'Die Jagd: Der Mini-boss'
+      - 'Caccia: mini boss'
+      - 'Caza: Mini-boss'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingMouse
+      TermType: 0
+      Languages:
+      - 'Охота: Мышь'
+      - 'Hunting: Mouse'
+      - 'Chasse: Souris'
+      - 'Die Jagd: Der Maus'
+      - 'Caccia: topo'
+      - 'Caza: Rata'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingRaccoon
+      TermType: 0
+      Languages:
+      - 'Охота: Енот'
+      - 'Hunting: Raccoon'
+      - 'Chasse: Raton Laveur'
+      - 'Die Jagd: Der Waschbär'
+      - 'Caccia: procione'
+      - 'Caza: Mapache'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/HuntingSpider
+      TermType: 0
+      Languages:
+      - 'Охота: Паук'
+      - 'Hunting: Spider'
+      - 'Chasse: Araignée'
+      - 'Die Jagd: Die Spinne'
+      - 'Caccia: ragno'
+      - 'Caza: Araña'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/MakeChild
+      TermType: 0
+      Languages:
+      - Завести Ребёнка
+      - Have a baby
+      - Avoir un bébé
+      - Ein Kind zu bekommen
+      - Fare un figlio
+      - Tener un bebé
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/PlantVegetable
+      TermType: 0
+      Languages:
+      - Посадить Овощ
+      - Plant a vegetable
+      - Planter un légume
+      - Gemüse pflanzen
+      - Piantare verdure
+      - Plantar un vegetal
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/QuenchThirst
+      TermType: 0
+      Languages:
+      - Попить воды
+      - Drink water
+      - Boire de l'eau
+      - Wasser trinken
+      - Bere acqua
+      - Beber agua
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/QuestComplete
+      TermType: 0
+      Languages:
+      - 'Квест выполнен!'
+      - 'Quest completed!'
+      - 'Tâche terminée!'
+      - 'Die Quest ist fertig!'
+      - 'Missione completa!'
+      - '¡Tarea cumplida!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestNames/SatisfyHunger
+      TermType: 0
+      Languages:
+      - Утолить голод
+      - Satisfy your hunger
+      - Satisfaire la faim
+      - Den Hunger zu Stillen
+      - Soddisfare la fame
+      - Saciar el hambre
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/CollectCoin
+      TermType: 0
+      Languages:
+      - 'По всей ферме, включая лес, разбросаны и спрятаны монеты. Вы должны собрать некоторое количество именно таких монет, поэтому для этого квеста не подойдут монеты от жителей фермы или из убитых врагов. Поищите монеты внутри амбаров, их там очень много!'
+      - 'There are coind hidden throughout the farm, including the forest. You must collect a certain amount of these coins exactly, you will not finish this quest with coins from the inhabitants of the farm or from the dead enemies. Look for coins inside the barns, there are a lot of them!'
+      - 'Des pièces sont cachées dans toute la ferme, y compris la forêt. Vous devez collecter un certain nombre de ces pièces, de sorte special, vous ne pouvez pas finir cette tâche par des pièces des habitants de la ferme ou des ennemis tués. Cherchez des pièces à l''intérieur des granges, il y en a beaucoup!'
+      - 'Münzen sind in der gesamten Farm versteckt, einschlieβlich des Waldes. Man muss diese Münzen sammeln, weil Münzen von Dorfbewohnern oder von getötene Fiende für diese Quest passen nicht. Man kann Münzen im Scheune suchen (es gibt so viel Münzen dort).'
+      - 'Le monete sono sparse e nascoste in tutta la fattoria, compresa la foresta. Dovete raccogliere una certa quantità di tali monete, per questa missione non vanno bene le monete degli abitanti della fattoria o dei nemici uccisi. Cercate monete all''interno dei fienili, lì ce ne sono tante!'
+      - 'Hay monedas dispersas y escondidas por toda la granja, incluido el bosque. Usted tiene que recoger una cierta cantidad de estas monedas, por lo que para esta tarea no es adecuado para las monedas de los habitantes de la granja o de los enemigos muertos. ¡Busca monedas dentro de los graneros, hay muchas!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/EducateChild
+      TermType: 0
+      Languages:
+      - 'Чтобы ребёнок рос, его необходимо кормить, обучать ловле мышей, сражению с пауками и опасными хищниками. Ребёнок получает опыт практически при совершении любого действия, но при удовлетворении потребности указанной над ним, он будет расти быстрее.'
+      - 'For a child grow, he/she must be fed, trained to catch mice, fight spiders and dangerous predators. The child gains experience by almost any action, but if the need specified above him/her is met, he/she will grow faster.'
+      - 'Pour que l''enfant grandisse, tu dois le nourrir, entraîner à attraper des souris, à combattre des araignées et des prédateurs dangereux. L''enfant acquiert de l''expérience par presque toutes les actions, mais lorsqu''il répond aux besoins indiqués ci-dessus, il grandira plus rapidement.'
+      - 'Man muss das Kind füttern, lehren die Mäuse zu fangen, mit Spinne und gefährliche Raubtiere zu kämpfen damit das Kind wächst. Das Kind verdient die Erfahrung fast von jeden Akt, aber wenn es die Bedürfnisse befriedigen, wächst es schneller.'
+      - 'Per far crescere un bambino, bisogna nutrirlo, addrestrarlo a catturare topi, combattere ragni e predatori pericolosi. Il bambino acquisisce esperienza nel compiere qualsiasi azione, ma crescerà più velocemente, se i suoi bisogni verranno soddisfatti.'
+      - 'Para que el bebé crezca, es necesario ser amamantarlo, enseñarlo atrapar las ratas, luchar contra arañas y depredadores peligrosos. El niño obtiene experiencia después de realizayion cualquier acción, pero al satisfacer la necesidad especificada sobre él, crecerá más rápido.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/FeedFamily
+      TermType: 0
+      Languages:
+      - 'Не забывайте кормить вашу семью. Чем сильнее они голодны, тем меньше наносят урона в схватке. Чтобы покормить семью, подойдите к пище и нажмите на кнопку с разноцветными кусочками пищи, которая появится вместо кнопки атаки. Старайтесь, чтобы ваша семья никогда не была голодной.'
+      - 'Don''t forget to feed your family. The hungrier they are, the less damage they do in combat. To feed the family, go to the food and click on the button with colored pieces of food that will appear instead of the attack button. Try to make sure that your family is never hungry.'
+      - 'N''oubliez pas de nourrir votre famille. Le plus faim ils ont, le moins de dégâts ils infligent dans la mêlée. Pour nourrir la famille, allez à la nourriture et appuyez sur le bouton avec des morceaux de nourriture colorés qui apparaîtra à la place du bouton d''attaque. Essayez de vous assurer que votre famille n''a jamais faim.'
+      - 'Vergessen Sie nicht Ihre Familie zu füttern. Je hungriger sie sind, desto weniger Schaden richten sie Feinden an. Um die Familie zu füttern gehen Sie zum Essen und drücken die Taste mit mehrfarbige Essenstücke, die auftaucht anstatt die Angrifftaste. Versuchen Sie Ihre Familie immer satt sein.'
+      - 'Non dimenticate di nutrire la vostra famiglia. Quanto più sono affamati, tanto meno danni faranno nella battaglia. Per nutrire la famiglia, andate al cibo e cliccate sul pulsante che appare al posto di quello di attacco e dove ci sono pezzi di cibo multicolore. assicuratevi che la famiglia non sia mai affamata.'
+      - 'No olvides alimentar a tu familia. Cuanto más hambrientos estén, menos daño causarán en el combate. Para alimentar a la familia, vaya a la comida y haga clic en el botón con trozos de comida de colores, que aparecerá en lugar del botón de ataque. Trate de asegurarse de que su familia nunca tenga hambre.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/GetSpouse
+      TermType: 0
+      Languages:
+      - 'Вы стали взрослым, поэтому настало время обзавестись собственной семьей. Жених или невеста помечаются сердцем, найти их можно с помощью карты. Чтобы создать семью, подбегите к будущему члену вашей семьи и нажмите кнопку для вступления в брак.'
+      - 'You have become an adult, so it''s time to start your own family. The bride or groom is marked with a heart, you can find them using the map. To create a family, run up to the future member of your family and click the button to get married.'
+      - 'Vous êtes devenu un adulte, il est donc temps d''avoir votre propre famille. Le marié ou la mariée est marqué avec un cœur, vous pouvez les trouver à l''aide d''une carte. Pour fonder une famille, courez vers un futur membre de votre famille et appuyez sur le bouton pour vous marier.'
+      - Sie sind Erwachsener. Es ist Zeit jetzt eine Familie zu gründen. Der Verlobter oder die Braut sind mit einem Herzen markiert. Man kann ihr mit die Karte finden. Um zu Familie gründen gehen Sie zum zukunftiges Familienmitglied und drücken die Taste "Die Familie zu gründen"
+      - 'Siete diventati adulti, quindi è il momento di iniziare la vostra propria famiglia. Lo sposo o la sposa sono segnati con un cuore, puoi trovarli con l''aiuto della mappa. Per creare una famiglia, andate dal futuro membro della vostra famiglia e cliccate il pulsante per il matrimonio.'
+      - 'Te has convertido en un adulto, así que es hora de tener tu propia familia. El novio o la novia están marcados con un corazón, puede encontrarlos con la ayuda de una tarjeta. Para formar una familia, corra hacia un futuro miembro de su familia y presione el botón para casarse.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HelpFarmer
+      TermType: 0
+      Languages:
+      - 'Используйте карту, чтобы найти фермера. Что именно надо фермеру можно узнать в окне карты или подойдя к нему. Затем подберите указанный предмет, подойдите к фермеру и нажмите кнопку с изображением подарка, которая появится вместо кнопки для опускания предмета. Принесите ему требуемое количество предметов, чтобы получить Сандали Ловкости.'
+      - 'Use the map to find Farmer. You can find out what the Farmer needs in the map window or by going to him. Then pick up the specified item, go to the Farmer and click the button with the image of the gift, which will appear instead of the button for putting the item. Bring him the required number of items to get Boots of Agility.'
+      - 'Utilisez la carte pour trouver Fermier. Pour savoir ce que Fermier veut - utilise le menu de la carte ou en s''approchant de lui. Ensuite, ramassez les objets spécifiés, allez à Fermier et cliquez sur le bouton avec l''image du cadeau qui apparaîtra à la place du bouton pour abaisser les objets. Apportez-lui le nombre requis d''objets pour obtenir des Sandales d''dgilité.'
+      - 'Benutzen Sie die Karte um die Farmer zu finden. Was braucht die Farmer kann man im Informationfenster der Karte sehen oder kann die Farmer fragen. Bringen Sie eine erforderliche Sache zur Farmer und drücken die Taste mit eines Geschenk, die einfindet sich statt die Taste "auslassen eine Sache". Bringen Sie erforderliche Menge an Sachen um "Die Geschickssandalen" zu bekommen.'
+      - 'Usate la mappa per trovare l''agricoltore. Ciò di cui lui ha proprio bisogno si trova nella finestra della mappa o avvicinandovi a lui. Quindi prendete l''oggetto indicato, andate dall''agricoltore e cliccate il pulsante con l''immagine del regalo, che apparirà al posto del pulsante per consegnare il regalo. Portategli la quantità necessaria di oggetti per ottenere i sandali di agilità.'
+      - 'Usa el mapa para encontrar Granjero. Qué es exactamente lo que el agricultor puede aprender en la ventana del mapa o acercándose a él. Luego, recoja el artículo especificado, diríjase al agricultor y presione el botón con la imagen del regalo, que aparecerá en lugar del botón para Bajar el artículo. Tráigale la cantidad requerida de artículos para obtener Sandalias de agilidad.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HelpGoat
+      TermType: 0
+      Languages:
+      - 'Используйте карту, чтобы найти козу. Что именно надо козе можно узнать в окне карты или подойдя к ней. Затем подберите указанный предмет, подойдите к козе и нажмите кнопку с изображением подарка, которая появится вместо кнопки для опускания предмета. Принесите ей требуемое количество предметов, чтобы получить Молоко Целебности.'
+      - 'Use the map to find Goat. You can find out what exactly the goat needs in the map window or by going to it. Then pick up the specified item, go to the goat and click the button with the image of the gift, which will appear instead of the button for lowering the item. Bring her the required number of items to get the Healing milk.'
+      - 'Utilisez la carte pour trouver Chèvre. Pour savoir ce que Chèvre veut - utilise le menu de la carte ou en s''approchant d''elle. Ensuite, ramassez les objets spécifiés, allez à Chèvre et appuyez sur le bouton avec l''image du cadeau qui apparaîtra à la place du bouton pour abaisser les objets. Apportez-lui le nombre requis d''objets pour obtenir le Lait de Guérison.'
+      - 'Benutzen Sie die Karte um die Ziege zu finden. Was braucht die Ziege kann man im Informationfenster der Karte sehen oder kann die Ziege fragen. Bringen Sie eine erforderliche Sache zur Ziege und drücken die Taste mit eines Geschenk, die einfindet sich statt die Taste "auslassen eine Sache". Bringen Sie erforderliche Menge an Sachen um "Die Heilungsmilch" zu bekommen.'
+      - 'Usate la mappa per trovare la capra. Ciò di cui ha bisogno si trova nella finestra della mappa o avvicinandovi ad essa. Quindi prendete l''oggetto indicato, andate dalla capra e cliccate il pulsante con l''immagine del regalo, che apparirà al posto del pulsante per consegnare il regalo. Portatele la quantità necessaria di oggetti per ottenere il latte curativo.'
+      - 'Usa el mapa para encontrar Cabra. Lo que necesita una cabra se puede aprender en la ventana del mapa o acercándose a ella. Luego, recoja el artículo especificado, vaya a la cabra y presione el botón con la imagen del regalo, que aparecerá en lugar del botón para Bajar el artículo. Tráigale la cantidad requerida de artículos para obtenerlLeche de la salubridad.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HelpPig
+      TermType: 0
+      Languages:
+      - 'Используйте карту, чтобы найти поросёнка. Что именно надо поросёнку можно узнать в окне карты или подойдя к нему. Затем подберите указанный предмет, подойдите к поросёнку и нажмите кнопку с изображением подарка, которая появится вместо кнопки для опускания предмета. Принесите ему требуемое количество предметов, чтобы получить Жёлудь Удачи.'
+      - 'Use the map to find Piggy. You can find out exactly what Piggy needs in the map window or by going to it. Then pick up the specified item, go to Piggy and click the button with the image of the gift, which will appear instead of the button for lowering the item. Bring him the required number of items to get the Acorn of Luck.'
+      - 'Utilisez la carte pour trouver Porcelet. Pour savoir ce que Porcelet veut - utilise le menu de la carte ou en s''approchant de lui. Ensuite, ramassez les objets spécifiés, allez au cochon et cliquez sur le bouton avec l''image du cadeau qui apparaîtra à la place du bouton pour abaisser les objets. Apportez-lui le nombre requis d''objets pour obtenir le Gland de la Chance.'
+      - 'Benutzen Sie die Karte um das Schweinchen zu finden. Was braucht das Schweinchen kann man im Informationfenster der Karte sehen oder kann das Schweinchen fragen. Bringen Sie eine erforderliche Sache zu dem Schweinchen und drücken die Taste mit eines Geschenk, die einfindet sich statt die Taste "auslassen eine Sache". Bringen Sie erforderliche Menge an Sachen um "Die Glückseichel" zu bekommen.'
+      - 'Usate la mappa per trovare il porcellino. Ciò di cui ha bisogno si trova nella finestra della mappa o avvicinandovi ad esso. Quindi prendete l''oggetto indicato, andate dal porcellino e cliccate il pulsante con l''immagine del regalo, che apparirà al posto del pulsante per consegnare il regalo. Portategli la quantità necessaria di oggetti per ottenere la ghianda della fortuna.'
+      - 'Usa el mapa para encontrar Cerdito. Lo que necesita Cerdito se puede encontrar en la ventana del mapa o acercándose a él. A continuación, seleccione el objeto especificado, vaya Cerdito y haga clic en el botón con la imagen del regalo, que aparecerá en lugar del botón para Bajar el objeto. Tráigale la cantidad requerida de artículos para obtener una Bellota de la fortuna.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingBoar
+      TermType: 0
+      Languages:
+      - 'Кабанов боятся не только коза и поросёнок, но даже фермер иногда боится выходить в лес опасаясь встретить этого свирепого зверя. И всё-таки победить кабана может большая семья кошек боевой породы. Действуя заодно, с полными силами, и устроив засаду кабану, семья кошек вероятней всего сразит этого зверя на повал.'
+      - 'Not only Goat and Piggy are afraid of wild boars, but even Farmer is sometimes afraid to go out into the forest for fear of meeting this ferocious animal. And at last a large family of fighting breed cats can defeat Boar. Acting at the same time, with full strength, and ambushing a boar, the cat family is most likely to fight this animal to the ground.'
+      - 'Ce sont pas seulement Chèvre et Porcelet, qui ont peur de Sanglier mais même Fermier a parfois peur de sortir dans la forêt de peur de rencontrer cette bête féroce. Et pourtant, une grande famille de chats de race de combat peut vaincre Sanglier. Agissant en même temps, avec toutes les forces, et ayant tendu une embuscade au sanglier, la famille des chats est susceptible de tuer cette bête à la chute.'
+      - 'Die Ziege, das Schweinchen haben angst von dem Eber und manchmal fürchtet sich auch die Farmer in den Wald gehen und dort dieses wilde Tier zu treffen. Nur die groβe Familie von der Kampfkatzen kann diesen Eber besiegen. Wenn die Familie zusammenarbeiten mit voller Kraft und einen Hinterhalt machen, dann kann vielleicht die Familie diesen Eber besiegen.'
+      - 'Non solo capre e porcellini hanno paura dei cinghiali, ma anche l''agricoltore a volte ha paura di uscire nella foresta ed incontrare questa bestia feroce. Tuttavia, una grande famiglia di gatti di razza combattiva può sconfiggere il cinghiale. Agendo congiuntamente e con tutta la loro forza, e facendo un agguato al cinghiale, è molto probabile che la famiglia di gatti metta questa bestia al tappeto.'
+      - 'Los Cabra y Cerdito no solos tienen miedo de Jabalíes, sino que incluso Granjero a veces tiene miedo de salir al bosque temiendo encontrarse con esta bestia feroz. Y, sin embargo, una gran familia de gatos de raza de batalla puede derrotar al Jabalí. Actuando al mismo tiempo, con toda su fuerza, y tendiendo una emboscada a un jabalí, la familia de gatos probablemente matará a esta bestia en el poval.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingBunny
+      TermType: 0
+      Languages:
+      - 'Зайцы зачастили подгрызать овощи на огороде. Они не такие слабые как мыши или пауки, но всёравно очень трусливые и боятся вас! Чтобы эффективно бороться с зайцем, необходимо задействовать скрытность, подобраться к нему сзади, и отправить его неожиданным шквалом ударов наповал.'
+      - 'Hares often nibble vegetables in the garden. They are not as weak as mice or spiders, but still very coward and afraid of you! To effectively fight the hare, you need to use stealth, get close to him from behind, and send him an unexpected barrage of blows on the spot.'
+      - 'Les lièvres ont souvent rongé les légumes dans le jardin. Ils ne sont pas aussi faibles que les souris ou les araignées, mais vseravno très lâche et ont peur de vous! Pour lutter efficacement avec le lièvre, vous devez utiliser la furtivité, se rapprocher de lui par derrière, et l''envoyer un barrage inattendu de coups sur le sol.'
+      - 'Hasen nagten oft Gemüse im Garten. Sie sind nicht so schwach wie Mäuse oder Spinnen, aber immer noch sehr feige und haben Angst vor Sie! Um effektiv mit dem Hasen fertig zu werden, müssen Sie Geheim-Modus verwenden, sich ihm von hinten nähern und ihn mit einer unerwarteten Flut von Schlägen töten.'
+      - 'Le lepri spesso rosicchiano le verdure in giardino. Non sono deboli come topi o ragni, ma sono comunque codardi e spaventati da voi. Per affrontare efficacemente le lepri, devi usare l''invisibilità, avvicinarti da dietro e dargli una raffica inaspettata di colpi.'
+      - 'Las liebres comenzaron a morder verduras en el Jardín. ¡No son tan débiles como los ratones o las arañas, pero son muy cobardes y te temen! Para luchar eficazmente con la liebre, es necesario utilizar el sigilo, acercarse a él por detrás, y enviarlo a una ráfaga inesperada de golpes en el Suelo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingFox
+      TermType: 0
+      Languages:
+      - 'Иногда лисы пробираются на ферму и пугают своим видом козу и поросёнка. Это очень коварные и опасные хищники, но вместе со своей семьей вы способны дать им отпор. Перед схваткой обязательно покормите семью, чтобы у них были силы сражаться. Затем убедитесь в том, что у вас полное здоровье, и устройте засаду лисе.'
+      - 'Sometimes foxes make their way to the farm and scare Goat and Piggy with their appearance. These are very insidious and dangerous predators, but together with your family you are able to fight them back. Before the fight, make sure to feed the family so that they have the strength to fight. Then make sure that you have full health, and ambush the Fox.'
+      - 'Parfois, les renards se faufilent dans la ferme et font peur à la chèvre et au cochon. Ce sont des prédateurs très insidieux et dangereux, mais avec votre famille, vous pouvez les repousser. Avant le combat, assurez-vous de nourrir la famille afin qu''ils aient la force de se battre. Ensuite, assurez-vous que vous êtes en pleine santé, et organiser une embuscade renard.'
+      - 'Manchmal machen sich Füchse auf den Weg zur Farm und erschrecken die Ziege und das Schweinchen mit ihrem Aussehen. Dies sind sehr heimtückische und gefährliche Raubtiere, aber zusammen mit Ihrer Familie können Sie sich wehren. Achten Sie darauf, die Familie vor dem Kampf zu ernähren, damit sie die Kraft hat, zu kämpfen. Stellen Sie dann sicher, dass Sie bei voller Gesundheit sind und überfallen Sie den Fuchs.'
+      - 'A volte le volpi si dirigono verso la fattoria e con il loro aspetto spaventano la capra e il porcellino. Sono predatori molto astuti e pericolosi, ma insieme alla vostra famiglia, sarete in grado di opporre resistenza. Prima della battaglia, assicuratevi di essere in buona salute e di fare un agguato alla volpe.'
+      - 'A veces, los zorros se escabullen en la granja y asustan a Cabra y a Cerdito con su apariencia. Estos son depredadores muy insidiosos y peligrosos, pero junto con su familia que son capaces de luchar contra ellos. Antes de la pelea, asegúrese de alimentar a la familia para que tengan la fuerza para luchar. A continuación, asegúrese de que usted está en plena salud, y tender una emboscada al zorro.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingMiniboss
+      TermType: 0
+      Languages:
+      - 'Мини-Боссы это вожаки стай. Они помечаются серебрянной звездой, а найти их можно с помощью карты. Атакуйте Мини-Босса из скрытности, желательно иметь полное здоровье и семью. Вожак не трусит, и если его не устранить, то ферма будет захвачена.'
+      - 'Mini-Bosses are pack leaders. They are marked with a silver star, and you can find them using the map. Attack the Mini-Boss from stealth, it is desirable to have full health and family. The leader is not a coward, and if he is not eliminated, the farm will be captured.'
+      - 'Les mini-Patrons sont les chefs de meute. Ils sont marqués d''une étoile d''argent, et vous pouvez les trouver à l''aide d''une carte. Attaquez le Mini-Boss par furtivité, il est conseillé d''avoir une santé et une famille complètes. Le chef ne lâche pas, et s''il n''est pas éliminé, la ferme sera capturée.'
+      - 'Mini-Bosse sind Rudelführer. Sie sind mit einem silbernen Stern markiert und können anhand der Karte gefunden werden. Greife den Mini Boss aus dem Geheim-modus an, es ist ratsam, vollständige Gesundheit und Familie zu haben. Der Rudelführer ist nicht feige, und wenn er nicht eliminiert wird, wird die Farm erobert.'
+      - 'I mini boss sono leader. Sono contrassegnati con una stella argentata e si possono trovare con l''aiuto di una mappa. Attaccate il mini boss di nascosto, possibilmente avendo con sé tutta la famiglia e una buona salute. Il capo non ha paura, ma se non viene eliminato, la fattoria verrà catturata.'
+      - 'Los Mini-bosses son los líderes de la manada. Están marcados con una estrella de plata, y se pueden encontrar con un mapa. Ataca al Mini-boss de sigilo, es recomendable tener una salud y una familia completas. El líder no es cobarde, y si no se elimina, la granja será capturada.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingMouse
+      TermType: 0
+      Languages:
+      - 'В последнее время на ферме завелось чересчур много мышей - мелких вредителей. Пора поймать несколько из них, чтобы преподать урок остальным грызунам. Отыщите мышей и задайте им жару! Желательно нападать на мышей из скрытности, чтобы они не успели ускользнуть.'
+      - 'Recently, there are many mice appeared on the farm - little pests. It''s time to catch a few of them to teach the rest of the rodents a lesson. Find the mice and give them the heat! It is advisable to attack the mice out of stealth, so that they do not have time to escape.'
+      - 'Récemment, de nombreuses souris - petits ravageurs-ont traversé la ferme à travers le Chur. Il est temps d''en attraper quelques-uns pour enseigner une leçon au reste des rongeurs. Trouvez les souris et leur donner de la chaleur! Il est conseillé d''attaquer les souris par furtivité afin qu''elles n''aient pas le temps de s''échapper.'
+      - 'In letzter Zeit sind viele Mäuse auf der Farm aufgetaucht - kleine Schädlinge. Es ist Zeit, ein paar von ihnen zu fangen, um den Rest der Nagetiere zu erschrecken. Finde die Mäuse. Es ist ratsam, die Mäuse heimlich anzugreifen, damit sie keine Zeit haben, sich zu entfernen.'
+      - 'Di recente nella fattoria sono stati trovati molti topi, piccoli parassiti. È ora di catturarli per dare una lezione al resto dei roditori. Trovate i topi e bruciateli! Si consiglia di attaccare i topi di nascosto di modo che non riescano a sfuggire.'
+      - 'Recientemente, en la granja, muchos ratas, pequeñas plagas, comenzaron a través de Chur. Es hora de atrapar a algunos de ellos para enseñar una lección al resto de los rotas. ¡Encuentra a los ratas y dales calor! Es recomendable atacar a los ratas de sigilo para que no tengan tiempo de escapar.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingRaccoon
+      TermType: 0
+      Languages:
+      - 'Еноты не подгрызают овощи на огороде, а берут и уносят их в целостности и сохранности прямиком к себе в норы. Имейте ввиду, что еноты достаточно жизнестойкие и не трусливые противники. Поэтому перед сражением с енотом желательно иметь полное здоровье, и обязательно устроить засаду, чтобы увеличить свои шансы на победу.'
+      - 'Raccoons do not nibble vegetables in the garden, but take them and carry them in integrity and safety straight to their burrows. Keep in mind that raccoons are quite resilient and not coward opponents. Therefore, before a battle with a raccoon, it is desirable to have full health, and be sure to arrange an ambush to increase your chances to win.'
+      - 'Les ratons laveurs ne mordent pas les légumes dans le jardin, mais les prennent et les emportent dans leur intégrité et leur sécurité directement dans leurs terriers. Gardez à l''esprit que les ratons laveurs sont assez résistants et pas des adversaires lâches. Par conséquent, avant de se battre avec un Raton laveur, il est souhaitable d''avoir une santé complète, et assurez-vous d''avoir une embuscade pour augmenter vos chances de gagner.'
+      - 'Waschbären nagen kein Gemüse im Garten, sondern nehmen es mit und tragen es in ihre Höhlen. Denken Sie daran, dass Waschbären durchaus lebensfähig und keine feigen Gegner sind. Daher ist es vor dem Kampf mit dem Waschbären wünschenswert, die volle Gesundheit zu haben und einen Hinterhalt zu arrangieren, um Ihre Gewinnchancen zu erhöhen.'
+      - 'I procioni non rosicchiano le verdure nell''orto, ma le prendono e le portano integre direttamente nelle loro tane. Tenete presente che i procioni sono abbastanza resistenti e non hanno paura. Pertanto, prima della battaglia con il procione, è consigliato essere in buona salute e fare un agguato per aumentare la possibilità di vincere.'
+      - 'Los mapaches no roen las verduras en el jardín, sino que las toman y las llevan intactas y seguras directamente a sus madrigueras. Tenga en cuenta que los mapaches son bastante resistentes y no cobardes oponentes. Por lo tanto, antes de la batalla con el mapache, es deseable tener una salud completa, y asegúrese de tender una emboscada para aumentar sus posibilidades de ganar.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/HuntingSpider
+      TermType: 0
+      Languages:
+      - 'На ферме случилась эпидемия пауков, пауки это хорошо, ведь они едят мух, но в таком количестве они превратят ферму в одну огромную паутину! Поэтому пора немного уменьшить их популяцию, отыщите пауков и устраните их в указанном количестве.'
+      - 'There was an epidemic of spiders on the farm, spiders are good, because they eat flies, but in such numbers they will turn the farm into one huge web! So it''s time to slightly reduce their population, find spiders and eliminate amount requested of them.'
+      - 'Il y a eu une épidémie d''araignées à la ferme, les araignées sont bonnes, car elles mangent des mouches, mais en tant quantité, elles transformeront la ferme en une énorme toile d''araignée! C''est pourquoi, il est le temps de réduire légèrement leur population, recherchez les araignées et éliminez-les en quantité spécifiée.'
+      - 'Es gab eine Spinnenepidemie auf der Farm, Spinnen sind gut, weil sie Fliegen fressen, aber in solchen Zahlen werden sie die Farm in ein riesiges Netz verwandeln! Daher ist es Zeit, ihre Population zu reduzieren, suchen Sie Spinnen und eliminieren in der angegebenen Menge.'
+      - 'Nella fattoria c''è stata un''epidemia di ragni, i quali sono buoni, perché mangiano le mosche, ma in tale quantità possono trasformare la fattoria in un''enome rete. Pertanto, è tempo di ridurre leggermente il loro numero, cercate i ragni ed eliminateli nella quantità indicata.'
+      - 'En la granja ha habido una epidemia de arañas, las arañas son buenas, porque comen moscas, pero en este número se convertirán en una gran red de la granja! Por lo tanto, es hora de reducir un poco su población, encontrar arañas y eliminarlos en la cantidad especificada.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/MakeChild
+      TermType: 0
+      Languages:
+      - 'Ваша семья жаждет пополнения. Чтобы завести ребёнка, необходимо иметь достаточное количество монет, указанное на кнопке заведения ребёнка, а затем нажать на эту кнопку. После того как ребёнок родится, вы должны будете обучить его всему, что умеете, для выживания в этом мире.'
+      - 'Your family is waiting for replenishment. To have a child, you must have a sufficient number of coins specified on the child''s institution button, and then click on this button. After the child is born, you will have to teach him everything that you know how to survive in this world.'
+      - 'Votre famille a soif de réapprovisionnement. Pour avoir un enfant, vous devez avoir un nombre suffisant de pièces indiqué sur le bouton de l''établissement de l''enfant, puis appuyer sur ce bouton. Après la naissance de l''enfant, vous devrez lui apprendre tout ce que vous pouvez, pour survivre dans ce monde.'
+      - 'Ihre Familie möchte ein Baby haben. Um ein Kind zu haben, müssen Sie eine ausreichende Anzahl von Münzen angegeben sind, und dann auf diese Taste drücken. Nachdem ein Kind geboren wurde, müssen Sie ihm alles beibringen, was Sie können, um in dieser Welt zu überleben.'
+      - 'La vostra famiglia ha bisogno di essere più numerosa. Per avere un figlio, è necessario avere un numero sufficiente di monete, indicato sul pulsante del fare figli, quindi cliccare questo pulsante. Dopo la nascita del bambino, dovrete insegnargli tutto ciò di cui siete in grado per farlo sopravvivere in questo mondo.'
+      - 'Su familia anhela la reposición. Para tener un niño, debe tener suficientes monedas indicadas en el botón de la Institución del niño y luego presionar ese botón. Después de que Nazca el bebé, tendrás que enseñarle todo lo que puedes hacer para sobrevivir en este mundo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/PlantVegetable
+      TermType: 0
+      Languages:
+      - 'Настало время заняться огородом. Чтобы посадить овощ, отыщите огород на ферме, затем подойдите к любой из иконок посадки и нажмите кнопку для посадки овоща, которая появится вместо кнопки атаки. Вы можете посадить любой овощ, бонус от которого вам понравился больше всего.'
+      - 'It''s time to start gardening. To plant a vegetable, look for a vegetable garden on the farm, then go to any of the planting icons and click the button for planting a vegetable, which will appear instead of the attack button. You can plant any vegetable that you like the most.'
+      - 'Il est temps de s''occuper du potager. Pour planter un légume, recherchez le potager de la ferme, puis accédez à l''une des icônes de plantation et appuyez sur le bouton de plantation qui apparaîtra à la place du bouton d''attaque. Vous pouvez planter n''importe quel légume dont vous avez le plus aimé le bonus.'
+      - 'Es ist Zeit, den Garten zu machen. Um ein Gemüse anzupflanzen, suchen Sie den Garten auf der Farm, gehen Sie zu einem der Pflanzsymbole und drücken Sie die Taste, um das Gemüse anzupflanzen, das anstelle der Angriffstaste angezeigt wird. Sie können jedes Gemüse pflanzen, dessen Bonus Ihnen am besten gefallen hat.'
+      - 'è ora di occuparsi del giardino. Per piantare una verdura, trovate l''orto nella fattoria, quindi andate ad una qualsiasi delle icone di piantagione e cliccate il pulsante per piantare la verdura, che apparirà al posto del pulsante di attacco. Potete piantare qualsiasi verdura il cui bonus vi è piaciuto di più.'
+      - 'Es hora de hacer un huerto. Para plantar un vegetal, busque un huerto en la granja, luego diríjase a cualquiera de los íconos de plantación y haga clic en el botón para plantar el vegetal, que aparecerá en lugar del botón de ataque. Puedes plantar cualquier vegetal que más te guste.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/QuenchThirst
+      TermType: 0
+      Languages:
+      - 'Для хорошего пищеварения, надо поддерживать уровень воды в организме. Попить можно в тазиках возле колодцев или в озере. Подойдите к воде и нажмите на кнопку с изображением капли, которая появится вместо кнопкы для еды. Источник воды можно найти с помощью карты.'
+      - 'For good digestion, it is necessary to maintain the level of water in the body. You can drink in basins near wells or in the lake. Go to the water and click on the button with the image of a drop that will appear instead of the button for food. The water source can be found using the map.'
+      - 'Pour une bonne digestion, il est nécessaire de maintenir le niveau d''eau dans le corps. Vous pouvez boire dans les bassins près des puits ou dans le lac. Allez à l''eau et appuyez sur le bouton avec l''image de la goutte qui apparaîtra à la place du bouton pour la nourriture. La source d''eau peut être trouvée à l''aide d''une carte.'
+      - 'Für eine gute Verdauung müssen Sie den Wasserstand im Körper aufrechterhalten. Sie können in Becken in der Nähe der Brunnen oder im See trinken. Gehen Sie zum Wasser und drücken Sie auf die Taste mit dem Bild des Tropfens, das anstelle der Essenstaste angezeigt wird. Die Wasserquelle kann über die Karte gefunden werden.'
+      - 'Per una buona digestione, è necessario mantenere il livello dell''acqua nel corpo. Potete bere nelle bacinelle vicino ai pozzi o nel lago. Avvicinatevi all''acqua e cliccate sul pulsante con l''immagine della goccia, che apparirà al posto del pulsante per il cibo. La fonte d''acqua può essere trovata con l''aiuto della mappa.'
+      - 'Para una buena digestión, es necesario mantener el nivel de agua en el cuerpo. Puedes beber en cuencas cerca de pozos o en el lago. Vaya al agua y haga clic en el botón con la imagen de la gota, que aparecerá en lugar del botón para comer. La fuente del agua se puede encontrar con un mapa.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: QuestDescriptions/SatisfyHunger
+      TermType: 0
+      Languages:
+      - 'Если вы долго не ели, то у вас начнёт падать здоровье. Вы можете поймать мышь или паука, а затем полакомиться ими. Для пищи также пригодны яйца, яблоки и съедобные грибы. Подойдите к пище и нажмите на кнопку с изображением кусочка мяса, чтобы съесть её.'
+      - 'If you haven''t eaten for a long time, your health will start to drop. You can catch a mouse or spider, and then eat them. Eggs, apples, and mushrooms are also suitable for food. Go to the food and click on the button with the image of a piece of meat to eat it.'
+      - 'Si vous n''avez pas mangé depuis longtemps, votre santé commencera à tomber. Vous pouvez attraper une souris ou une araignée, puis les manger. Les œufs, les pommes et les champignons comestibles conviennent également à la nourriture. Allez à la nourriture et appuyez sur le bouton représentant un morceau de viande pour le manger.'
+      - 'Wenn Sie lange nicht gegessen haben, beginnt sich Ihre Gesundheit zu verschlechtern. Sie können eine Maus oder eine Spinne fangen und essen. Eier, Äpfel und Speisepilze kann man auch essen Essen. Gehen Sie zum Essen und drücken Sie auf die Taste mit dem Bild eines Stücks Fleisch, um es zu essen.'
+      - 'Se non mangiate da molto tempo, la vostra salute inizierà a peggiorare. Potete catturare topi o ragni e assaggiarli. Uova, mele e funghi commestibili sono anche adatti come cibo. Avvicinatevi al cibo e per mangiare e cliccate sul pulsante con l''immagine di un pezzo di carne.'
+      - 'Si no ha comido durante mucho tiempo, entonces su salud comenzará a caer. Puedes atrapar un rata o una araña y luego comerlos. Los huevos, las manzanas y los hongos también son adecuados para la comida. Vaya a la comida y haga clic en el botón que representa un trozo de carne para comerlo.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FarmResidentNames/Farmer
+      TermType: 0
+      Languages:
+      - Фермер
+      - Farmer
+      - Fermier
+      - Die Farmer
+      - Agricoltore
+      - Granjero
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FarmResidentNames/Goat
+      TermType: 0
+      Languages:
+      - Коза
+      - Goat
+      - Сhèvre
+      - Die Ziege
+      - Capra
+      - Cabra
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FarmResidentNames/Pig
+      TermType: 0
+      Languages:
+      - Поросёнок
+      - Piggy
+      - Porcelet
+      - Das Schweinchen
+      - Porcellino
+      - Cerdito
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/English
+      TermType: 0
+      Languages:
+      - English
+      - English
+      - English
+      - English
+      - English
+      - English
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/French
+      TermType: 0
+      Languages:
+      - Français
+      - Français
+      - Français
+      - Français
+      - Français
+      - Français
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/German
+      TermType: 0
+      Languages:
+      - Deutsch
+      - Deutsch
+      - Deutsch
+      - Deutsch
+      - Deutsch
+      - Deutsch
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/Italian
+      TermType: 0
+      Languages:
+      - Italiano
+      - Italiano
+      - Italiano
+      - Italiano
+      - Italiano
+      - Italiano
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/Russian
+      TermType: 0
+      Languages:
+      - Русский
+      - Русский
+      - Русский
+      - Русский
+      - Русский
+      - Русский
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Languages/Spanish
+      TermType: 0
+      Languages:
+      - Español
+      - Español
+      - Español
+      - Español
+      - Español
+      - Español
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/BeetBonus
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к силе атаки из скрытности'
+      - '+{[bonus]}% attack power from stealth'
+      - '+{[bonus]}% puissance d''attaque de camouflage'
+      - '+{[bonus]}% zur Angriffskraft aus der Heimlichkeit'
+      - '+{[bonus]}% per la velocità di attacco di nascosto'
+      - '+{[bonus]}% poder de ataque de sigilo'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/TurnipBonus
+      TermType: 0
+      Languages:
+      - '-{[bonus]}% к скорости наступления жажды'
+      - '-{[bonus]}% of thirst onset rate'
+      - '-{[bonus]}% au taux de soif'
+      - '-{[bonus]}% zur Geschwindigkeit des Auftretens von Durst'
+      - '-{[bonus]}% per la velocità di insorgenza di sete'
+      - '-{[bonus]}% a la velocidad d''inicio de la sed'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Mainecoon
+      TermType: 0
+      Languages:
+      - 'Порода: Мейн-кун'
+      - 'Breed: Maine Coon'
+      - 'Race: Maine Coon'
+      - 'Rasse: Maine-Coon-Katze'
+      - 'Razza: Maine Coon'
+      - 'Raza: Maine Coon'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinNames/Scottish
+      TermType: 0
+      Languages:
+      - 'Порода: Шотландская вислоухая'
+      - 'Breed: Scottish fold'
+      - 'Race: Scottish fold'
+      - 'Rasse: Schottische Faltohrkatze'
+      - 'Razza: Scottish Fold'
+      - 'Raza: Scottish fold'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Mainecoon
+      TermType: 0
+      Languages:
+      - 'Крупнейшая, выносливая порода кошек. Благодаря огромному количеству шерсти им не так страшны удары врагов. Поэтому Мейн-кун может легко противостоять даже самым опасным хищникам.'
+      - 'The largest, hardy cat breed. Due to the huge amount of fur, they are not so afraid of enemy blows. Therefore, Maine Coon can easily resist even the most dangerous predators.'
+      - 'La plus grande race de chat robuste. En raison de l''énorme quantité de laine, ils n''ont pas tant de peur des coups d''ennemis. Par conséquent, le Maine Coon peut facilement résister même aux prédateurs les plus dangereux.'
+      - 'Die größte, winterharte Katzenrasse. Dank der großen Menge an Wolle, die Schlagen von Feinde sind nicht so schrecklich fur Sie. Daher kann der Maine Coon selbst dem gefährlichsten raubtier leicht widerstehen.'
+      - 'La più grande e resistente razza di gatti. Grazie alla grande quantità di pelo, non hanno così tanta paura dei colpi dei nemici. Pertanto, Maine Coon può facilmente opporsi anche ai predatori più pericolosi.'
+      - 'La raza de gato más grande y resistente. Debido a la gran cantidad de lana, no tienen tanto miedo a los golpes de los enemigos. Por lo tanto, Maine Coon puede resistir fácilmente incluso a los depredadores más peligrosos.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinDescriptions/Scottish
+      TermType: 0
+      Languages:
+      - 'Причиной необычной внешности этих кошек является генная мутация, она же дарит им способность притягивать золото. Обладателям этой породы сопутствует большая удача, богатство и великие свершения.'
+      - 'The reason of the unusual appearance of these cats is a gene mutation, it also gives them the ability to attract more gold. The owners of this breed are accompanied by the great luck, wealth and the great achievements.'
+      - 'La raison de l''apparition inhabituelle de ces chats est une mutation génétique, elle leur donne également la capacité d''attirer l''or. Les propriétaires de cette race sont accompagnés de beaucoup de chance, de richesse et de grandes réalisations.'
+      - 'Der Grund für das ungewöhnliche Aussehen dieser Katzen ist eine Genmutation, Sie gibt Ihnen die Fähigkeit, Gold anzuziehen. Besitzer dieser Rasse werden von großem Glück, Reichtum und großen Leistungen begleitet.'
+      - 'Il motivo per cui l’aspetto di questi gatti è insolito è la mutazione genetica, la quale gli dà la capacità di attrarre oro. I proprietari di questa razza hanno grande fortuna, ricchezza e grandi successi.'
+      - 'La razón de la apariencia inusual de estos gatos es una mutación genética, también les da la capacidad de atraer oro. Los propietarios de esta raza están acompañados de gran suerte, riqueza y grandes logros.'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Mainecoon1
+      TermType: 0
+      Languages:
+      - '+{[bonus]}% к количеству здоровья'
+      - '+{[bonus]}% health points'
+      - '+{[bonus]}% à la quantité de santé'
+      - '+{[bonus]}% zur Gesundheit'
+      - '+{[bonus]}% per la quantità di salute'
+      - '+{[bonus]}% a la cantidad de salud'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Mainecoon2
+      TermType: 0
+      Languages:
+      - 'Из мини-боссов дополнительно выпадает {[bonus]} монет'
+      - 'Mini-bosses additionally drop {[bonus]} coins'
+      - 'Les mini-boss déposent {[bonus]} pièces plus.'
+      - 'Wenn Sie die Mini-Bosse besiegen, erhalten Sie {[bonus]} zusätzliche Münzen'
+      - 'I mini-boss rilasciano {[bonus]} monete in più'
+      - 'Los mini bosses sueltan {[bonus]}monedas además'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Scottish1
+      TermType: 0
+      Languages:
+      - 'Каждые {[value]} ударов выпадает одна монета'
+      - 'Every {[value]} strike, drops a coin'
+      - 'Chaque {[value]} coups, une pièce tombe'
+      - 'Jeder {[value]} Schläge erhalten Sie eine Münze'
+      - 'Ogni {[value]} di colpi ricevete una moneta'
+      - 'Cada {[value]} golpes, una moneda cae'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SkinBonuses/Scottish2
+      TermType: 0
+      Languages:
+      - Монеты притягиваются с большого расстояния
+      - Coins are attracted from a long distance
+      - Les pièces sont attirées à longue distance
+      - Münzen werden aus großer Entfernung angezogen
+      - Le monete sono attratte da una lunga distanza.
+      - Las monedas son atraídas desde una gran distancia.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Hints/HelpHintClew
+      TermType: 0
+      Languages:
+      - 'Поздравления, вы нашли свой первый клубок! Клубки различных цветов спрятаны по всей ферме и лесу. Найдите все 30 клубков, чтобы получить 600 монет и собрать полную коллекцию, вперёд на поиски!'
+      - 'Congratulations, you have found your first ball! Balls of various colors are hidden throughout the farm and forest. Find all 30 balls to get 600 coins and collect a complete collection, forward on a quest!'
+      - 'Félicitations, vous avez trouvé votre premier enchevêtrement! Des enchevêtrement de couleurs différentes sont cachées en ferme et dans la forêt. Trouvez 30 enchevêtrements pour obtenir 600 pièces et terminer la collection complète, à la recherche!'
+      - 'Herzlichen Glückwunsch, Sie haben Ihre erste Garnknäuel gefunden! Garnknäuel in verschiedenen Farben sind in der Farm und im Wald versteckt. Finden Sie alle 30 Garnknäuel, um 600 Münzen zu erhalten und sammle die komplette Sammlung, Mach weiter auf der Suche!'
+      - 'Congratulazioni, avete trovato il vostro primo gomitolo! I gomitoli di diversi colori sono nascosti in tutta la fattoria e in tutto il bosco. Trovate tutti i 30 gomitoli, per ricevere 600 monete e collezionarli tutti, avanti con la ricerca!'
+      - '¡Felicidades, has encontrado tu primer enredo! Enredos de varios colores se esconden en toda la granja y en el bosque. Encuentra las 30 enredos para obtener 600 monedas y recoge una colección completa, ¡ve a la búsqueda!'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CrossPromo_Download
+      TermType: 0
+      Languages:
+      - Скачать
+      - Download
+      - Сharger le jeu
+      - Lade das Spiel
+      - Carica il gioco
+      - Сargar el juego
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CrossPromo_AppName
+      TermType: 0
+      Languages:
+      - Симулятор Белки Онлайн
+      - Squirrel Simulator Online
+      - Squirrel Simulator en ligne
+      - Eichhörnchen Simulator Online
+      - Squirrel Simulator Online
+      - Simulador de ardilla en línea
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/ShowHotKeysHint
+      TermType: 0
+      Languages:
+      - Показывать подсказку о помощи по клавишам
+      - Show keyboard help hint
+      - 'Afficher l''info-bulle de l''aide sur les touches'
+      - Kurzinfo zur Schlüsselhilfe anzeigen
+      - Mostra tooltip chiave di aiuto
+      - Mostrar información sobre herramientas de ayuda clave
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SettingsWindow/Resolution
+      TermType: 0
+      Languages:
+      - Разрешение
+      - Resolution
+      - Résolution
+      - Bildschirmauflösung
+      - Risoluzione
+      - Resolución
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: GameWindow/ButtonsHelpF1
+      TermType: 0
+      Languages:
+      - 'F1 - список горячих клавиш'
+      - 'F1 - list of hotkeys'
+      - 'F1 - liste des raccourcis clavier'
+      - 'F1 - Liste der Hotkeys'
+      - 'F1 - elenco dei tasti di scelta rapida'
+      - 'F1 - lista de teclas de acceso rápido'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/Movement
+      TermType: 0
+      Languages:
+      - Передвижение
+      - Movement
+      - Mouvement
+      - Bewegung
+      - Movimento
+      - Movimiento
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/Jump
+      TermType: 0
+      Languages:
+      - Прыжок
+      - Jump
+      - Sauter
+      - Springen
+      - Salta
+      - Saltar
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/MainAction
+      TermType: 0
+      Languages:
+      - 'Атака, кормление семьи, посадка овощей, заведение супруги, сон'
+      - 'Attack, family feeding, planting vegetables, get spouse, sleep'
+      - 'Attaque, nourrir la famille, planter des légumes, établissement du conjoint, dormir'
+      - 'Angreifen, Familie ernähren, Gemüse pflanzen, Ehepartner einrichten, schlafen'
+      - 'Atacar, alimentar a la familia, plantar hortalizas, establecimiento del cónyuge, dormir'
+      - 'Attaccare, nutrire la famiglia, piantare ortaggi, stabilimento del coniuge, dormire'
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/EatDrink
+      TermType: 0
+      Languages:
+      - Поесть или попить
+      - Eat or drink
+      - Manger ou boire
+      - Essen oder Trinken
+      - Mangia o bevi
+      - Comer o beber
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/PickDrop
+      TermType: 0
+      Languages:
+      - Поднять или положить предмет
+      - Pick up or put down an item
+      - Ramasser ou déposer un objet
+      - Einen Gegenstand aufnehmen oder abstellen
+      - Raccogli o metti giù un oggetto
+      - Recoger o dejar un artículo
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/Stealth
+      TermType: 0
+      Languages:
+      - Режим скрытности
+      - Stealth mode
+      - Mode furtif
+      - 'Stealth-Modus'
+      - Modalità Nascosta
+      - Modo sigilo
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/Map
+      TermType: 0
+      Languages:
+      - Карта
+      - Map
+      - Carte
+      - Karte
+      - Carta geografica
+      - Mapa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: HotKeysPanel/QuestWindow
+      TermType: 0
+      Languages:
+      - Окно квестов
+      - Quest window
+      - Fenêtre de quête
+      - 'Quest-Fenster'
+      - Finestra delle missioni
+      - Ventana de búsqueda
+      Flags: 000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: ''
+    mLanguages:
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 'https://script.google.com/macros/s/AKfycbzcvOlCL8Q07gvkRQGjhPg6gVDsjVkL5H4Th5T6/exec'
+    Google_SpreadsheetKey: '13JWo6lHIlNVfyHlb6h90KYIYXBkQHOlZBx0jqOg8chk'
+    Google_SpreadsheetName: I2Loc Cat Simulator Language Source
+    Google_LastUpdatedVersion: '1588164140175'
+    GoogleUpdateFrequency: 1
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 0
+    GoogleUpdateDelay: 0
+    Assets: []

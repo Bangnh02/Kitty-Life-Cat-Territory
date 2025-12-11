@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 89a19a7113182b546ad238f359392d2f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Cat Shorthair(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_1
+      parentName: Cat Shorthair(Clone)
+      position: {x: -0.000000001246448, y: 0.31302747, z: -0.11503966}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: Cat_Shorthair_Pelvis
+      parentName: Cat_Shorthair_1
+      position: {x: -0.045291208, y: -0.000000061599295, z: -0.026532598}
+      rotation: {x: -0.00000038743013, y: 0.70710737, z: 0.7071063, w: 0.0000005066394}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat_Shorthair_Spine
+      parentName: Cat_Shorthair_Pelvis
+      position: {x: -0.0007779216, y: 0.006972971, z: -0.000000018455502}
+      rotation: {x: -0.000001962487, y: 0.0000009806147, z: -0.7061997, w: 0.7080127}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_Spine1
+      parentName: Cat_Shorthair_Spine
+      position: {x: -0.036215354, y: -0.000028839111, z: -7.999915e-11}
+      rotation: {x: 2.348512e-13, y: -3.0487767e-15, z: 2.7093636e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_Spine2
+      parentName: Cat_Shorthair_Spine1
+      position: {x: -0.03621521, y: -0.000028829574, z: -7.9944586e-11}
+      rotation: {x: -8.946142e-14, y: -0.000000007018338, z: 0.0025304244, w: 0.99999684}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_Neck
+      parentName: Cat_Shorthair_Spine2
+      position: {x: -0.036190663, y: -0.000040073395, z: -1.1112206e-10}
+      rotation: {x: 0.000000048969667, y: -0.0000006598605, z: 0.24185675, w: 0.970312}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cat_Shorthair_Head
+      parentName: Cat_Shorthair_Neck
+      position: {x: -0.059098348, y: 0.0000000047683715, z: 3.6379787e-14}
+      rotation: {x: -6.82121e-13, y: -0.0000012392217, z: 0.44679236, w: 0.8946377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_R_Whiskers
+      parentName: Cat_Shorthair_Head
+      position: {x: 0.0128081115, y: 0.069794536, z: -0.02379043}
+      rotation: {x: -0.03490367, y: -0.83102435, z: 0.05754641, w: 0.55214924}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_R_Ear
+      parentName: Cat_Shorthair_Head
+      position: {x: -0.033417206, y: 0.0074631213, z: -0.029637653}
+      rotation: {x: -0.41001612, y: -0.33568576, z: -0.018343925, w: 0.84785926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_R_Ear02
+      parentName: Cat_Shorthair_R_Ear
+      position: {x: -0.02678052, y: -0.000021328926, z: 0}
+      rotation: {x: 0.000000016964831, y: 0.0000000035947816, z: 0.000000031615667, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Cat_Shorthair_Jaw
+      parentName: Cat_Shorthair_Head
+      position: {x: -0.006054038, y: 0.034605425, z: 0.000000052029534}
+      rotation: {x: -0.0000007183599, y: -0.0000027317699, z: 0.97229695, w: -0.23374918}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_L_Whiskers
+      parentName: Cat_Shorthair_Head
+      position: {x: 0.0128081115, y: 0.06979441, z: 0.023790812}
+      rotation: {x: 0.03490369, y: 0.83102393, z: 0.057551116, w: 0.5521493}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_L_Ear
+      parentName: Cat_Shorthair_Head
+      position: {x: -0.033417206, y: 0.0074629686, z: 0.029637687}
+      rotation: {x: 0.41001612, y: 0.33568588, z: -0.018342078, w: 0.84785926}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_L_Ear02
+      parentName: Cat_Shorthair_L_Ear
+      position: {x: -0.026780507, y: -0.000021324155, z: 0}
+      rotation: {x: -0.000000029347056, y: 0.000000014578828, z: 0.000000008021161, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Cat_Shorthair_R_Eye
+      parentName: Cat_Shorthair_Head
+      position: {x: -0.010759983, y: 0.04402992, z: -0.02115118}
+      rotation: {x: -0.079529, y: -0.08654445, z: -0.6711998, w: 0.73189896}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_L_Eye
+      parentName: Cat_Shorthair_Head
+      position: {x: -0.010759983, y: 0.044029806, z: 0.021151423}
+      rotation: {x: 0.07952912, y: 0.08654832, z: -0.67119914, w: 0.7318991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_L_Clavicle
+      parentName: Cat_Shorthair_Spine2
+      position: {x: -0.026280897, y: -0.0035333824, z: 0.0073126988}
+      rotation: {x: -0.68918246, y: 0.1317061, z: 0.70889795, w: -0.0717275}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cat_Shorthair_L_UpperArm
+      parentName: Cat_Shorthair_L_Clavicle
+      position: {x: -0.0398258, y: 0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: -0.6483004, y: 0.07827488, z: -0.09668819, w: 0.7511532}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cat_Shorthair_L_Forearm
+      parentName: Cat_Shorthair_L_UpperArm
+      position: {x: -0.03746827, y: 0, z: 0}
+      rotation: {x: -0.0057691606, y: 0.01939798, z: 0.037803907, w: 0.9990803}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_L_Hand
+      parentName: Cat_Shorthair_L_Forearm
+      position: {x: -0.05244347, y: 0, z: 0.0000000011920929}
+      rotation: {x: -0.0029278025, y: 0.04873678, z: 0.6530506, w: 0.75573874}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: Cat_Shorthair_R_Clavicle
+      parentName: Cat_Shorthair_Spine2
+      position: {x: -0.026280897, y: -0.0035333443, z: -0.0073127192}
+      rotation: {x: 0.6891822, y: -0.13170815, z: 0.7088976, w: -0.071729355}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cat_Shorthair_R_UpperArm
+      parentName: Cat_Shorthair_R_Clavicle
+      position: {x: -0.039825812, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.64830023, y: -0.078275114, z: -0.09668822, w: 0.7511533}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_R_Forearm
+      parentName: Cat_Shorthair_R_UpperArm
+      position: {x: -0.03746827, y: 0.0000000047683715, z: -0.0000000011920929}
+      rotation: {x: 0.0057691024, y: -0.019397799, z: 0.037803754, w: 0.9990803}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_R_Hand
+      parentName: Cat_Shorthair_R_Forearm
+      position: {x: -0.05244346, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0.0029277615, y: -0.048736937, z: 0.65305066, w: 0.75573874}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Cat_Shorthair_Bell
+      parentName: Cat_Shorthair_Spine2
+      position: {x: -0.055416774, y: 0.04479787, z: 0.000000087856826}
+      rotation: {x: -0.00000031692264, y: 0.0000017813061, z: -0.698035, w: 0.7160636}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+    - name: Cat_Shorthair_L_Thigh
+      parentName: Cat_Shorthair_Pelvis
+      position: {x: 0.000000028610229, y: 0.000000028610229, z: 0.017402388}
+      rotation: {x: 0.6316716, y: 0.76589805, z: 0.06694598, w: 0.09954617}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Cat_Shorthair_L_Calf
+      parentName: Cat_Shorthair_L_Thigh
+      position: {x: -0.06649707, y: 0, z: 0}
+      rotation: {x: 0.00869591, y: -0.015529957, z: 0.31493437, w: 0.94894654}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Cat_Shorthair_L_Foot
+      parentName: Cat_Shorthair_L_Calf
+      position: {x: -0.030047867, y: -0.000000009536743, z: -0.0000000023841857}
+      rotation: {x: 0.106286444, y: 0.034876566, z: -0.50657874, w: 0.8549063}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_L_Toe0
+      parentName: Cat_Shorthair_L_Foot
+      position: {x: -0.022529937, y: 0.028995046, z: 0}
+      rotation: {x: -0.000000020928395, y: 0.0000000062986345, z: 0.9575728, w: -0.28819156}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_R_Thigh
+      parentName: Cat_Shorthair_Pelvis
+      position: {x: -0.000000028610229, y: -0.000000019073486, z: -0.017402392}
+      rotation: {x: 0.6316718, y: 0.7658977, z: -0.066947944, w: -0.099546306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_R_Calf
+      parentName: Cat_Shorthair_R_Thigh
+      position: {x: -0.06649707, y: -0.0000000047683715, z: 0}
+      rotation: {x: -0.008696047, y: 0.015530052, z: 0.31493437, w: 0.9489465}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Cat_Shorthair_R_Foot
+      parentName: Cat_Shorthair_R_Calf
+      position: {x: -0.030047862, y: -0.0000000047683715, z: 0.0000000023841857}
+      rotation: {x: -0.106286205, y: -0.034876682, z: -0.506579, w: 0.8549062}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cat_Shorthair_R_Toe0
+      parentName: Cat_Shorthair_R_Foot
+      position: {x: -0.022529934, y: 0.028995046, z: 0}
+      rotation: {x: 0.00000002092834, y: -0.000000006298632, z: 0.9575728, w: -0.28819156}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat_Shorthair_Tail
+      parentName: Cat_Shorthair_Pelvis
+      position: {x: -0.009881639, y: -0.023933472, z: 0.000000080751484}
+      rotation: {x: -0.0000009813966, y: 3.9046444e-10, z: 0.7068252, w: 0.7073882}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat_Shorthair_Tail02
+      parentName: Cat_Shorthair_Tail
+      position: {x: -0.03861368, y: -0.000030746458, z: -8.527421e-11}
+      rotation: {x: 6.988526e-14, y: -2.3295312e-14, z: -2.7203398e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_Tail03
+      parentName: Cat_Shorthair_Tail02
+      position: {x: -0.03861367, y: -0.000030746458, z: -8.527421e-11}
+      rotation: {x: 6.988526e-14, y: 3.354811e-14, z: -2.7203396e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_Tail04
+      parentName: Cat_Shorthair_Tail03
+      position: {x: -0.0386137, y: -0.000030746458, z: -8.527421e-11}
+      rotation: {x: 6.9930525e-14, y: -2.3295295e-14, z: -2.7203396e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat_Shorthair_Mesh
+      parentName: Cat Shorthair(Clone)
+      position: {x: -0, y: -0.0005582024, z: 0.003206006}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

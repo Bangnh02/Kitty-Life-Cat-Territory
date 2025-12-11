@@ -1,0 +1,17 @@
+using System;
+
+[Flags]
+public enum CommandId
+{
+	None = 0x0,
+	Move = 0x1,
+	Jump = 0x2,
+	Eat = 0x4,
+	Drink = 0x8,
+	Pick = 0x10,
+	Drop = 0x20,
+	Attack = 0x40,
+	Invisibility = 0x80,
+	FamilyEat = 0x100,
+	Sleep = 0x200
+}
